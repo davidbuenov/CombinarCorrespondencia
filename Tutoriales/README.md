@@ -1,13 +1,12 @@
-# CombinarCorrespondencia
- Este proyecto permite realizar combinaciones de correspondencia avanzadas con Microsoft Word, donde el usuario puede elegir que se generen pdfs, que se firmen, que cada documento tenga un nombre específico y que se envíen por correo.
-
+# Documentos Auxiliares
+ En esta carpeta se guardan los documentos auxiliares asociados a cada uno de los videos del canal de Youtube.
  David Bueno Vallejo
 
- [Combinar Correspondencia #1](https://youtu.be/PJYR6Cc9ovU)
+Video [#1 Combinar correspondencia y generar PDFs individuales](https://youtu.be/PJYR6Cc9ovU)  -  Archivos [documentosTutorialCombinarCorrespondencia.zip](documentosTutorialCombinarCorrespondencia.zip)
 
- [Combinar Correspondencia #2](https://youtu.be/Lu64q5-2ABA)
+Video  [#2 Combinar correspondencia y generar PDFs individuales seleccionando nombre archivos](https://youtu.be/Lu64q5-2ABA) - Archivos [documentosTutorialCombinarCorrespondenciaVersion2.zip]
 
- [Combinar Correspondencia #3](https://youtu.be/OaHKKyT0ke0)
+ Video  [#3 Combinar Correspondencia en PDFs con nombres individuales y enviarlos por correo](https://youtu.be/OaHKKyT0ke0) - Archivos [documentosTutorialCombinarCorrespondenciaVersion3.zip]
 
  Si el contenido de esta entrada de ha ahorrado mucho trabajo puedes hacer una pequeña donación para apoyar que se sigan creando contenidos interesantes de forma gratuita. [Donar](https://www.paypal.com/donate?hosted_button_id=J5DXQN5VCBTVE)
  
