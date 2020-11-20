@@ -8,5 +8,5 @@ Video  [#2 Combinar correspondencia y generar PDFs individuales seleccionando no
 
  Video  [#3 Combinar Correspondencia en PDFs con nombres individuales y enviarlos por correo](https://youtu.be/OaHKKyT0ke0) - Archivos [documentosTutorialCombinarCorrespondenciaVersion3.zip](documentosTutorialCombinarCorrespondenciaVersion3.zip)
 
- Si el contenido de esta entrada de ha ahorrado mucho trabajo puedes hacer una pequeña donación para apoyar que se sigan creando contenidos interesantes de forma gratuita. [Donar](https://www.paypal.com/donate?hosted_button_id=J5DXQN5VCBTVE)
+
  
