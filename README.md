@@ -25,11 +25,9 @@ Como complemento de lo que aquí se presenta, desarrollé un curso completo de u
  
  ## Sobre el Autor
   [linkedin - davidbueno](https://www.linkedin.com/in/davidbueno/)
-  
-  [twitter - davidbuenov)(https://twitter.com/davidbuenov)
-  
+  [twitter - davidbuenov](https://twitter.com/davidbuenov)
   [Youtube - davidbueno ](https://www.youtube.com/davidbueno)
   
-  David Bueno Vallejo
+  Dr. David Bueno Vallejo
  
  
