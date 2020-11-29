@@ -4,7 +4,10 @@
 ## Instalación
 La aplicación viene en un único documento de plantillas de Microsoft Word que se llama DBVMacrosCombinarCorrespondencia.dotm (en la carpeta Aplicación). 
 1. La recomendación de instalación es guardarlo en la carpeta de plantillas. Normalmente: C:\Usuarios\[nombre usuario]\Documentos\Plantillas personalizadas de Office
-2. ![Imagen](Imagenes/PlantillasInicio.jpg)
+2. Después hay que seleccionar la plantilla como activa en: Archivo->Opciones de Word-->Complementos->Administrar-->Complementos de Word -->Ir
+
+![Opciones de Word](Imagenes/OpcionesdeWord.jpg)
+![Plantilla Instalada](Imagenes/PlantillasInicio.jpg)
  
 ## Origen
 Todo empezo con un video en el que se explicaba la combinación por correspondencia sencilla, válida para la mayoría de los usuarios. Además se explicaba como hacer para generar documentos .pdf. Esa generación se hace usando una macro con VBA. 
