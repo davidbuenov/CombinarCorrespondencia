@@ -15,6 +15,8 @@ La aplicación viene en un único documento de plantillas de Microsoft Word que 
   ![Activar Programador](Imagenes/ActivarProgramador.jpg)
  5. La macro se puede ejecutar desde el Menu Vista-> Macro->Ver Macro-> IniciarCombinarCorrespondencia
  ![IniciarMacro](Imagenes/IniciarMacro.jpg)
+ 6. Si todo ha ido bien Debería aparecer la siguiente ventana:
+ ![IniciarMacro](Imagenes/FormularioCombinar.jpg)
  
 ## Origen
 Todo empezo con un video en el que se explicaba la combinación por correspondencia sencilla, válida para la mayoría de los usuarios. Además se explicaba como hacer para generar documentos .pdf. Esa generación se hace usando una macro con VBA. 
