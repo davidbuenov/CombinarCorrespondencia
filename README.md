@@ -4,12 +4,17 @@
 ## Instalación
 La aplicación viene en un único documento de plantillas de Microsoft Word que se llama DBVMacrosCombinarCorrespondencia.dotm (en la carpeta Aplicación). 
 1. La recomendación de instalación es guardarlo en la carpeta de plantillas. Normalmente: C:\Usuarios\[nombre usuario]\Documentos\Plantillas personalizadas de Office
-2. Después hay que seleccionar la plantilla como activa en: Archivo->Opciones de Word-->Complementos->Administrar-->Complementos de Word -->Ir
+2. Después hay que seleccionar la plantilla como activa en: Archivo->Opciones de Word->Complementos->Administrar->Complementos de Word ->Ir
 
 ![Opciones de Word](Imagenes/OpcionesdeWord.jpg)
 
-3. Después hay que seleccionar la plantilla para que pueda verse desde cualquier documento como se muestra en la imagen.
+3. Después hay que seleccionar la plantilla para que pueda verse desde cualquier documento como se muestra en la imagen.Con esto ya estará la Macro disponible para ejecutarse desde cualquier documento.
 ![Plantilla Instalada](Imagenes/PlantillasInicio.jpg)
+ 
+ 4. (opcional) Para poder ver las macro hay que tener activada la pestaña programador. Si ya la tiene puede saltarse este paso, sino. en Archivo->Opciones->Personalizar Cinta de Opciones, se debe activar la casilla Programador que da acceso a las Macros.
+  ![Activar Programador](Imagenes/ActivarProgramador.jpg)
+ 5. La macro se puede ejecutar desde el Menu Vista-> Macro->Ver Macro-> IniciarCombinarCorrespondencia
+ ![IniciarMacro](Imagenes/IniciarMacro.jpg)
  
 ## Origen
 Todo empezo con un video en el que se explicaba la combinación por correspondencia sencilla, válida para la mayoría de los usuarios. Además se explicaba como hacer para generar documentos .pdf. Esa generación se hace usando una macro con VBA. 
