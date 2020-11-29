@@ -7,6 +7,8 @@ La aplicación viene en un único documento de plantillas de Microsoft Word que 
 2. Después hay que seleccionar la plantilla como activa en: Archivo->Opciones de Word-->Complementos->Administrar-->Complementos de Word -->Ir
 
 ![Opciones de Word](Imagenes/OpcionesdeWord.jpg)
+
+3. Después hay que seleccionar la plantilla para que pueda verse desde cualquier documento como se muestra en la imagen.
 ![Plantilla Instalada](Imagenes/PlantillasInicio.jpg)
  
 ## Origen
