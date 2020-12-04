@@ -28,9 +28,18 @@ La aplicación viene en un único documento de plantillas de Microsoft Word que 
  ## Preparación de documento combinado
  Utilizando un documento excel como el que se encuentra en [Ejemplos/empleadosv4.xlsx](Ejemplos/empleadosv4.xlsx):
  ![Excel Empleados](Imagenes/excel1.jpg)
- Se debe realizar la correspondencia con un documento word generando un archivo único. Ver ejemplo en: [#1 Combinar correspondencia y generar PDFs individuales](https://youtu.be/PJYR6Cc9ovU)
- El documento debe tener una entrada especial para los casos de: nombres de archivo independientes, envio a correo electrónico y generación de contraseña personalizada. que serían los siguientes.
+ y un documento como [Ejemplos/cartaempleadosv4.docx](Ejemplos/cartaempleadosv4.docx) que antes de combinar quedaría así:
+  ![Word Empleados](Imagenes/word1.jpg)
+  y después de combinar:
+   ![Word Empleados](Imagenes/word2.jpg)
+ 
+ 
+ Se debe realizar la correspondencia con un documento word generando un archivo único (En Word->Correspondencia->Finalizar y Combinar->Editar Documentos Individuales->Todos. Ver ejemplo en: [#1 Combinar correspondencia y generar PDFs individuales](https://youtu.be/PJYR6Cc9ovU). Desde el documento que se genere, será desde el que funcione nuestra aplicación.
+ 
+ El documento debe tener una entrada especial para los casos de: "nombres de archivo personalizado", "envio a correo electrónico" y "generación de contraseña individual". que serían los siguientes.
  1. Para que funcione correctamente el botón de "Nombres archivos personalizados"  deberá aparecer en una de las páginas de cada documento el caracter _ seguido del nombre del archivo y terminado en el un guión - . Ejemplo, antes de combinar: _«EMPLEADO»- despues de combinar: _David-
+ 2. Para que funcione bien el envío a correo deberá aparecer en una de las páginas de cada documento la dirección de correo con el caracter ç al inicio y al final. Ejemplo, antes de combinar: ç«EMAIL»ç después de combinar: çcursodbv@mailinator.comç
+ 3. Para que funcione la opción "Contraseña individual", hay que generar ´ (comilla a la derecha de la ñ)  contraseña para el archivo y de nuevo ´. Ejemplo, antes de combinar: ´«CONTRASENA»´  y después de combinar: ´DavidSecreto´
  
 ## Origen
 Todo empezo con un video en el que se explicaba la combinación por correspondencia sencilla, válida para la mayoría de los usuarios. Además se explicaba como hacer para generar documentos .pdf. Esa generación se hace usando una macro con VBA. 
