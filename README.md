@@ -42,15 +42,15 @@ La aplicación viene en un único documento de plantillas de Microsoft Word que 
  3. Para que funcione la opción "Contraseña individual", hay que generar ´ (comilla a la derecha de la ñ)  contraseña para el archivo y de nuevo ´. Ejemplo, antes de combinar: ´«CONTRASENA»´  y después de combinar: ´DavidSecreto´
 ## Usando DBV Combinar Correspondencia
 Una vez generado el archivo único que contendrá todos los documentos independientes, se puede usar la herramienta. Veremos a continuación los distintos campos de la misma con sus variaciones.
-###Carpeta Destino
-###Páginas por documento
-###Nombre Documentos
-###Correos
-###Contraseña
-###Consola
-###Aceptar
-###Salir
-###Donar y Ayuda
+### Carpeta Destino
+### Páginas por documento
+### Nombre Documentos
+### Correos
+### Contraseña
+### Consola
+### Aceptar
+### Salir
+### Donar y Ayuda
 
 ## Origen
 Todo empezo con un video en el que se explicaba la combinación por correspondencia sencilla, válida para la mayoría de los usuarios. Además se explicaba como hacer para generar documentos .pdf. Esa generación se hace usando una macro con VBA. 
