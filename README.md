@@ -27,7 +27,7 @@ La aplicación viene en un único documento de plantillas de Microsoft Word que 
  
  ## Preparación de documento combinado
  Utilizando un documento excel como el que se encuentra en [Ejemplos/empleadosv4.xlsx](Ejemplos/empleadosv4.xlsx):
- ![Excel Empleados](Imagenes/Excel1.jpg)
+ ![Excel Empleados](Imagenes/excel1.jpg)
  Se debe realizar la correspondencia con un documento word generando un archivo único. Ver ejemplo en: [#1 Combinar correspondencia y generar PDFs individuales](https://youtu.be/PJYR6Cc9ovU)
  El documento debe tener una entrada especial para los casos de: nombres de archivo independientes, envio a correo electrónico y generación de contraseña personalizada. que serían los siguientes.
  1. Para que funcione correctamente el botón de "Nombres archivos personalizados"  deberá aparecer en una de las páginas de cada documento el caracter _ seguido del nombre del archivo y terminado en el un guión - . Ejemplo, antes de combinar: _«EMPLEADO»- despues de combinar: _David-
