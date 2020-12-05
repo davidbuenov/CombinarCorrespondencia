@@ -71,11 +71,16 @@ En el campo de texto cuerpo del mensaje, que solo se activa al seleccionar el Ch
 Respecto a las contraseñas existen tres opciones:
 1. Sin contraseña. Que no requiere instalar PDFCreator y no protegerá los documentos generados
 2. Contraseña única. Que mostrará el "campo contraseña" que se ve en la imagen, y podrá escribirse una contraseña que servirá para abrir todos los documentos generados.
-3. Contraseña individual. Genera una contraseña diferente para cada usuario, y para ello, en el documento base debe aparecer en una página de cada documento a generar, al igual que pasa con el nombre y el correo, un campo con la comilla ´ (comilla a la derecha de la ñ)  contraseña para el archivo y de nuevo ´. Ejemplo, antes de combinar: ´«CONTRASENA»´  y después de combinar: ´DavidSecreto´
+3. Contraseña individual. Genera una contraseña diferente para cada usuario, y para ello, en el documento base debe aparecer en una página de cada documento a generar, al igual que pasa con el nombre y el correo, un campo con la comilla ´ (comilla a la derecha de la ñ)  ejemplo: ´DavidSecreto´
 
 ### Consola
 ![Ventana Parte 4](Imagenes/ventanaparte4.jpg)
+
+En la consola se mostrará la información de lo que vaya pasando. Pudiendo vaciar su contenido con el botón limpiar consola. 
 ### Aceptar
+![Ventana Parte 5](Imagenes/ventanaparte5.jpg)
+
+El 
 ### Salir
 ### Donar y Ayuda
 
