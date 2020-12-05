@@ -21,6 +21,7 @@ La aplicación viene en un único documento de plantillas de Microsoft Word que 
  8. Para poder poner contraseña a los pdf que se generan es necesario descargar la herramienta PDFCreator (freeware) que además de ser una herramienta muy potente para generar y usar archivos pdf, dispone de [una potente API](https://docs.pdfforge.org/pdfcreator/en/pdfcreator/com-interface/) en varios lenguajes de programación que facilita el uso de pdfs desde nuestros programas. Para nuestra aplicación es suficiente con la versión gratuita, aunque la versión profesional tiene un coste de unos 16€/año (NOTA: PDF Creator no patrocina esta Web). Habría que descargar PDFCreator [aquí](https://www.pdfforge.org/pdfcreator/download).  Siga los pasos del asistente y puede rechazar si le pide instalar un antivirus. Probablemente instale PDFArchitect que se puede desinstalar si no interesa, aunque es una herramienta simila a Adobe Acrobat.
  Primer paso del instalador...
  ![IniciarMacro](Imagenes/PDFCreator1.jpg)
+ 
  Última pantalla de la instalación.
  ![IniciarMacro](Imagenes/PDFCreator2.jpg)
  9. Con esto es suficiente y la aplicación de combianar correspondencia ya sería totalmente funcional.
@@ -28,8 +29,10 @@ La aplicación viene en un único documento de plantillas de Microsoft Word que 
  ## Preparación de documento combinado
  Utilizando un documento excel como el que se encuentra en [Ejemplos/empleadosv4.xlsx](Ejemplos/empleadosv4.xlsx):
  ![Excel Empleados](Imagenes/excel1.jpg)
+ 
  y un documento como [Ejemplos/cartaempleadosv4.docx](Ejemplos/cartaempleadosv4.docx) que antes de combinar quedaría así:
   ![Word Empleados](Imagenes/word1.jpg)
+  
   y después de combinar:
    ![Word Empleados](Imagenes/word2.jpg)
  
@@ -44,6 +47,7 @@ La aplicación viene en un único documento de plantillas de Microsoft Word que 
 Una vez generado el archivo único que contendrá todos los documentos independientes, se puede usar la herramienta. Veremos a continuación los distintos campos de la misma con sus variaciones.
 ### Carpeta Destino
 ![Ventana Parte 1](Imagenes/ventanaparte1.jpg)
+
 En la carpeta destino hay que seleccionar una carpeta del equipo que YA EXISTA y será en la que se guarden los documentos generados. 
 ### Páginas por documento
 Aquí hay que indicar un número que es el número de páginas de cada documento individual con el que se hace la combinación por correspondencia. Es decir, el documento con el que combinamos tiene 2 páginas y el documento final, que genera 20 cartas diferentes tiene 40 páginas, en este campo habrá que poner 2. 
@@ -53,8 +57,22 @@ Existen dos formas de generar los nombres de los documentos. De forma genérica 
 Si se selecciona el checkbox nombre archivos personalizados, se desabilita el campo nombre documentos, y el nombre que se tomará será el que debe aparecer en cada uno de los documentos combinados, con la combinación especial _nombre-. Es decir que si en la página aparece _david-  el documento que se generará sera david.pdf  
 ### Correos
 ![Ventana Parte 2](Imagenes/ventanaparte2.jpg)
+
+Si se mantiene el checkbox "Enviar correo" desabilitado no se envía ningún correo. 
+Si se activa, el módulo de inteligencia artificial (ahora todo el mundo mete inteligencia artificial por todas partes ;) busca las cuentas que tenga el usuario en el Outlook del PC, para ello es requisito tener Outlook instalado con al menos una cuenta válida y haría falta que se hubiera iniciado, para que Word pudiera conectar con la Aplicación de Outlook (aunque esté en segundo plano).  Habrá que seleccionar en el desplegable la cuenta desde la que se quieren enviar los correos.
+
+Los correos se enviarán a las direcciones que aparezcan en el documento, al igual que en el caso del nombre llevará una codificación con el caracter ç. Ejemplo:  çcursodbv@mailinator.comç (para más información ver apartado de "preparación de documento combinado")
+
+En el campo de texto cuerpo del mensaje, que solo se activa al seleccionar el Checkbox de "Enviar Correo", se puede poner un texto genérico que se enviará a todos los usuarios igual, ya que la gracia está en el documento adjunto. (Si se recibe una demanda importante, en un futuro se podrían añadir campos como el nombre para poder personalizar el contenido...)
+
 ### Contraseña
 ![Ventana Parte 3](Imagenes/ventanaparte3.jpg)
+
+Respecto a las contraseñas existen tres opciones:
+1. Sin contraseña. Que no requiere instalar PDFCreator y no protegerá los documentos generados
+2. Contraseña única. Que mostrará el "campo contraseña" que se ve en la imagen, y podrá escribirse una contraseña que servirá para abrir todos los documentos generados.
+3. Contraseña individual. Genera una contraseña diferente para cada usuario, y para ello, en el documento base debe aparecer en una página de cada documento a generar, al igual que pasa con el nombre y el correo, un campo con la comilla ´ (comilla a la derecha de la ñ)  contraseña para el archivo y de nuevo ´. Ejemplo, antes de combinar: ´«CONTRASENA»´  y después de combinar: ´DavidSecreto´
+
 ### Consola
 ![Ventana Parte 4](Imagenes/ventanaparte4.jpg)
 ### Aceptar
