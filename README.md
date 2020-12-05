@@ -50,8 +50,16 @@ El botón [Donar](https://www.paypal.com/donate?hosted_button_id=J5DXQN5VCBTVE) 
 
  ## Sobre el Autor
   [linkedin - davidbueno](https://www.linkedin.com/in/davidbueno/)
+  
   [twitter - davidbuenov](https://twitter.com/davidbuenov)
+  
   [Youtube - davidbueno ](https://www.youtube.com/davidbueno)
+  
+  [Blogger - davidbuenov](http://davidbuenov.blogspot.com/)
+  
+  [Slideshare - davidbuenov](https://www.slideshare.net/davidbuenov)
+  [Udemy](https://www.udemy.com/user/david-bueno-vallejo/)
+  
   
   Dr. David Bueno Vallejo
  
