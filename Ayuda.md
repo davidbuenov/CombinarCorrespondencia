@@ -1,5 +1,8 @@
 # Ayuda de la aplicación Combinar Correspondencia
-Aquí encontrará explicada las diferentes formas de usar la aplicación
+La ayuda de la aplicación de divide en 3 apartados:
+1. Instalación
+2. [Preparación del documento combinado](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/Ayuda.md#preparaci%C3%B3n-del-documento-combinado)
+3. [Uso de la aplicación]
 
 ## Preparación del documento combinado
  Utilizando un documento excel como el que se encuentra en [Ejemplos/empleadosv4.xlsx](Ejemplos/empleadosv4.xlsx):
