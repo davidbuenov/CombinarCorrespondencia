@@ -80,10 +80,13 @@ En la consola se mostrará la información de lo que vaya pasando. Pudiendo vaci
 ### Aceptar
 ![Ventana Parte 5](Imagenes/ventanaparte5.jpg)
 
-El 
+Cuando se han configurado todos los parámetros, se pulsa el botón Aceptar para iniciar la generación de los documentos pdf, envios de correo, con las opciones que se hayan seleccionado. 
 ### Salir
+Pulsando el botón Salir se cierra la aplicación.
 ### Donar y Ayuda
-
+El botón donar esta solo para tí, que sientes que has encontrado la aplicación de tu vida para combinar correspondiencia y que gracias a ella te estas ahorrando muchas horas de trabajo. Estás deseando agradecer al programador su trabajo y no puedes evitar pulsar este botón ;-)
+### Ayuda
+El botón de Ayuda lleva a este documento. 
 ## Origen
 Todo empezo con un video en el que se explicaba la combinación por correspondencia sencilla, válida para la mayoría de los usuarios. Además se explicaba como hacer para generar documentos .pdf. Esa generación se hace usando una macro con VBA. 
 
