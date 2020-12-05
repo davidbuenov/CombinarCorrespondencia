@@ -43,11 +43,20 @@ La aplicación viene en un único documento de plantillas de Microsoft Word que 
 ## Usando DBV Combinar Correspondencia
 Una vez generado el archivo único que contendrá todos los documentos independientes, se puede usar la herramienta. Veremos a continuación los distintos campos de la misma con sus variaciones.
 ### Carpeta Destino
+![Ventana Parte 1](Imagenes/ventanaparte1.jpg)
+En la carpeta destino hay que seleccionar una carpeta del equipo que YA EXISTA y será en la que se guarden los documentos generados. 
 ### Páginas por documento
+Aquí hay que indicar un número que es el número de páginas de cada documento individual con el que se hace la combinación por correspondencia. Es decir, el documento con el que combinamos tiene 2 páginas y el documento final, que genera 20 cartas diferentes tiene 40 páginas, en este campo habrá que poner 2. 
 ### Nombre Documentos
+Existen dos formas de generar los nombres de los documentos. De forma genérica o de forma personalizada. La opción se elige pulsando el Checkbox "Nombres archivos personalizados". En el caso en no esté seleccionado los documentos se generan con nombres consecutivos numerados, tomando como base el campo "Nombre documentos", por ejemplo, si en "Nombre Documentos" aparece "misdocs", los documentos que se generaran serán:misdocs1.pdf, misdocs2.pdf, ...
+
+Si se selecciona el checkbox nombre archivos personalizados, se desabilita el campo nombre documentos, y el nombre que se tomará será el que debe aparecer en cada uno de los documentos combinados, con la combinación especial _nombre-. Es decir que si en la página aparece _david-  el documento que se generará sera david.pdf  
 ### Correos
+![Ventana Parte 2](Imagenes/ventanaparte2.jpg)
 ### Contraseña
+![Ventana Parte 3](Imagenes/ventanaparte3.jpg)
 ### Consola
+![Ventana Parte 4](Imagenes/ventanaparte4.jpg)
 ### Aceptar
 ### Salir
 ### Donar y Ayuda
