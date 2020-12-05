@@ -62,6 +62,6 @@ Cuando se han configurado todos los parámetros, se pulsa el botón Aceptar para
 ### Salir
 Pulsando el botón Salir se cierra la aplicación.
 ### Donar y Ayuda
-El botón donar esta solo para tí, que sientes que has encontrado la aplicación de tu vida para combinar correspondiencia y que gracias a ella te estas ahorrando muchas horas de trabajo. Estás deseando agradecer al programador su trabajo y no puedes evitar pulsar este botón ;-)
+El botón [Donar](https://www.paypal.com/donate?hosted_button_id=J5DXQN5VCBTVE) esta hecho solo para tí, que sientes que has encontrado la aplicación de tu vida para combinar correspondiencia y que gracias a ella te estas ahorrando muchas horas de trabajo. Estás deseando agradecer al programador su trabajo y no puedes evitar pulsar este botón [Donar](https://www.paypal.com/donate?hosted_button_id=J5DXQN5VCBTVE)  ;-)
 ### Ayuda
 El botón de Ayuda lleva a este documento. 
