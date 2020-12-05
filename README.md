@@ -30,6 +30,7 @@ La aplicación viene en un único documento de plantillas de Microsoft Word que 
  
  Última pantalla de la instalación.
  ![IniciarMacro](Imagenes/PDFCreator2.jpg)
+ 
  9. Con esto es suficiente y la aplicación de combianar correspondencia ya sería totalmente funcional.
  
  ## Preparación de documento combinado
@@ -58,6 +59,7 @@ El botón [Donar](https://www.paypal.com/donate?hosted_button_id=J5DXQN5VCBTVE) 
   [Blogger - davidbuenov](http://davidbuenov.blogspot.com/)
   
   [Slideshare - davidbuenov](https://www.slideshare.net/davidbuenov)
+  
   [Udemy](https://www.udemy.com/user/david-bueno-vallejo/)
   
   
