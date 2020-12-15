@@ -4,11 +4,14 @@
 1. [Instalación](https://github.com/davidbuenov/CombinarCorrespondencia#instalaci%C3%B3n)
 2. [Preparación del documento combinado](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/Ayuda.md#preparaci%C3%B3n-del-documento-combinado)
 3. [Uso de la aplicación](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/Ayuda.md#usando-dbv-combinar-correspondencia)
+4. [Video Tutoriales](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/README.md#video-tutoriales)
 4. [El Origen](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/origen.md#origen)
 5. [Sobre el Autor](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/README.md#sobre-el-autor) 
  
 ## Instalación
 La aplicación viene en un único documento de plantillas de Microsoft Word que se llama DBVMacrosCombinarCorrespondencia.dotm (en la carpeta Aplicación). 
+Si no te gusta leer mucho, puedes ver los pasos para instalarlo en este [vídeo tutorial de la instalación](https://youtu.be/GCoHx2JaaMI)
+
 1. La recomendación de instalación es guardarlo en la carpeta de plantillas. Normalmente: C:\Usuarios\[nombre usuario]\Documentos\Plantillas personalizadas de Office
 2. Después hay que seleccionar la plantilla como activa en: Archivo->Opciones de Word->Complementos->Administrar->Complementos de Word ->Ir
 
@@ -37,7 +40,14 @@ La aplicación viene en un único documento de plantillas de Microsoft Word que 
  Los pasos se detallan en la Ayuda: [Preparación del documento combinado](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/Ayuda.md#preparaci%C3%B3n-del-documento-combinado)
 
 ## Usando DBV Combinar Correspondencia
-Los pasos se detallan en la Ayuda: [Uso de la aplicación](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/Ayuda.md#usando-dbv-combinar-correspondencia)
+
+PUedes ver como se usa en este [video sobre cómo usar la aplicación](https://youtu.be/CeAmDicTyQo)
+o seguir los pasos que se detallan en la Ayuda: [Uso de la aplicación](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/Ayuda.md#usando-dbv-combinar-correspondencia)
+## Video tutoriales
+Para todos los que prefieren que les cuenten las cosas y ver como funcionan he creado los siguientes videos:
+1. [Vídeo tutorial de la instalación](https://youtu.be/GCoHx2JaaMI)
+
+2. [Tutorial sobre cómo usar la aplicación](https://youtu.be/CeAmDicTyQo)
 
 ## Origen
 Te gustaría conocer la historia de por qué cree esta aplicación. Puedes verla en [El Origen](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/origen.md)

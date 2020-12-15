@@ -3,8 +3,12 @@ La ayuda de la aplicación de divide en 3 apartados:
 1. [Instalación](https://github.com/davidbuenov/CombinarCorrespondencia/edit/main/README.md)
 2. [Preparación del documento combinado](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/Ayuda.md#preparaci%C3%B3n-del-documento-combinado)
 3. [Uso de la aplicación](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/Ayuda.md#usando-dbv-combinar-correspondencia)
+4. [Video Tutoriales](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/README.md#video-tutoriales)
 
 ## Preparación del documento combinado
+
+ Si le resulta más facil, puede ver el [video tutorial sobre el uso de la aplicación](https://youtu.be/CeAmDicTyQo)
+
  Utilizando un documento excel como el que se encuentra en [Ejemplos/empleadosv4.xlsx](Ejemplos/empleadosv4.xlsx):
  ![Excel Empleados](Imagenes/excel1.jpg)
  
