@@ -43,6 +43,8 @@ Si se selecciona el checkbox nombre archivos personalizados, se desabilita el ca
 Si se mantiene el checkbox "Enviar correo" desabilitado no se envía ningún correo. 
 Si se activa, el módulo de inteligencia artificial (ahora todo el mundo mete inteligencia artificial por todas partes ;) busca las cuentas que tenga el usuario en el Outlook del PC, para ello es requisito tener Outlook instalado con al menos una cuenta válida y haría falta que se hubiera iniciado, para que Word pudiera conectar con la Aplicación de Outlook (aunque esté en segundo plano).  Habrá que seleccionar en el desplegable la cuenta desde la que se quieren enviar los correos.
 
+Opcionalmente se pueden añadir adjuntos que serán comunes a todos los correos. Esto se hará con el icono de añadir adjuntos (cuando se abre el cuadro de diálogo se puede realizar una selección múltiple de archivos usando ctrl o mayusculas). También hay un icono para borrar todos los adjuntos seleccionados.
+
 Los correos se enviarán a las direcciones que aparezcan en el documento, al igual que en el caso del nombre llevará una codificación con el caracter ç. Ejemplo:  çcursodbv@mailinator.comç (para más información ver apartado de "preparación de documento combinado")
 
 En el campo de texto cuerpo del mensaje, que solo se activa al seleccionar el Checkbox de "Enviar Correo", se puede poner un texto genérico que se enviará a todos los usuarios igual, ya que la gracia está en el documento adjunto. (Si se recibe una demanda importante, en un futuro se podrían añadir campos como el nombre para poder personalizar el contenido...)
