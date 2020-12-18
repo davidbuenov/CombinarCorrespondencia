@@ -37,12 +37,12 @@ Si no te gusta leer mucho, puedes ver los pasos para instalarlo en este [vídeo 
  9. Con esto es suficiente y la aplicación de combianar correspondencia ya sería totalmente funcional.
  
  ## Preparación de documento combinado
- Los pasos se detallan en la Ayuda: [Preparación del documento combinado](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/Ayuda.md#preparaci%C3%B3n-del-documento-combinado)
+ Los pasos se detallan en la Ayuda: [Preparación del documento combinado](Ayuda.md#preparaci%C3%B3n-del-documento-combinado)
 
 ## Usando DBV Combinar Correspondencia
 
 PUedes ver como se usa en este [video sobre cómo usar la aplicación](https://youtu.be/CeAmDicTyQo)
-o seguir los pasos que se detallan en la Ayuda: [Uso de la aplicación](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/Ayuda.md#usando-dbv-combinar-correspondencia)
+o seguir los pasos que se detallan en la Ayuda: [Uso de la aplicación](Ayuda.md#usando-dbv-combinar-correspondencia)
 ## Video tutoriales
 Para todos los que prefieren que les cuenten las cosas y ver como funcionan he creado los siguientes videos:
 1. [Vídeo tutorial de la instalación](https://youtu.be/GCoHx2JaaMI)
@@ -50,14 +50,14 @@ Para todos los que prefieren que les cuenten las cosas y ver como funcionan he c
 2. [Tutorial sobre cómo usar la aplicación](https://youtu.be/CeAmDicTyQo)
 
 ## Origen
-Te gustaría conocer la historia de por qué cree esta aplicación. Puedes verla en [El Origen](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/origen.md)
+Te gustaría conocer la historia de por qué cree esta aplicación. Puedes verla en [El Origen](origen.md)
 
 ## Curso de Microsoft Word
 
 Como complemento de lo que aquí se presenta, desarrollé un curso completo de uso de Microsoft Word que puede consultarse aquí: [Curso Aprende bien Microsoft Word](https://www.udemy.com/course/aprendemicrosoftword/?referralCode=53B4CF7B7C08F59F4EBA)
 
 ## Donar
-El botón [Donar](https://www.paypal.com/donate?hosted_button_id=J5DXQN5VCBTVE) esta hecho solo para tí, que sientes que has encontrado la aplicación de tu vida para combinar correspondiencia y que gracias a ella te estas ahorrando muchas horas de trabajo. Estás deseando agradecer al programador su trabajo y no puedes evitar pulsar este botón [Donar](https://www.paypal.com/donate?hosted_button_id=J5DXQN5VCBTVE)  ;-)
+El botón [Donar](https://www.paypal.com/donate?hosted_button_id=J5DXQN5VCBTVE) esta hecho solo para tí, que sientes que has encontrado la aplicación de tu vida para combinar correspondiencia y que gracias a ella te estas ahorrando muchas horas de trabajo. Estás deseando agradecer al programador su trabajo y no puedes evitar pulsar este botón [Donar](https://www.paypal.com/donate?hosted_button_id=J5DXQN5VCBTVE)  
 
 
  ## Sobre el Autor
