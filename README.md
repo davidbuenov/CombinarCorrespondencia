@@ -1,8 +1,8 @@
 # Combinar Correspondencia
  Este proyecto permite realizar combinaciones de correspondencia avanzadas con Microsoft Word, donde el usuario puede elegir que se generen pdfs, que se protejan con contraseña, que cada documento tenga un nombre específico y que se envíen por correo. Los apartados principales son:
  
-1. [Instalación](https://github.com/davidbuenov/CombinarCorrespondencia#instalaci%C3%B3n)
-2. [Preparación del documento combinado](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/Ayuda.md#preparaci%C3%B3n-del-documento-combinado)
+1. [Instalación](#instalaci%C3%B3n)
+2. [Preparación del documento combinado](Ayuda.md#preparaci%C3%B3n-del-documento-combinado)
 3. [Uso de la aplicación](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/Ayuda.md#usando-dbv-combinar-correspondencia)
 4. [Video Tutoriales](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/README.md#video-tutoriales)
 4. [El Origen](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/origen.md#origen)
