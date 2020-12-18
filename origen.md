@@ -15,4 +15,4 @@ Los usuarios del [canal de youtube](https://www.youtube.com/c/DavidBuenoVallejo)
 Esas tres versiones podían hacerse con una macro VBA recogiendo diferentes parámetros a través de MsgBox sin necesidad de ninguna librería adicional. Todos los documentos usado y ejemplos están disponibles en la carpeta [Tutoriales](Tutoriales) de este proyecto. Pero cuando en el canal pidieron una nueva actualización, todo se complicó un poco. Las últimas peticiones estaban relacionadas con añadir contraseñas a los archivos generados y eso no se podía hacer ni con adobe profesional, ni sin usar librerías. Después de buscar algo que permitiera realizar todo el proceso de generación de los tres videos y además poder generar una firma para los documentos dio lugar a este proyecto, ya que necesitaba unir todo el trabajo realizado en un único sitio. 
 
 ## Ir a Inicio
-[Ir a inicio](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/README.md#combinar-correspondencia)
+[Ir a inicio](README.md#combinar-correspondencia)
