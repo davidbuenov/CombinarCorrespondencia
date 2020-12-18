@@ -14,9 +14,7 @@ Si no te gusta leer mucho, puedes ver los pasos para instalarlo en este [vídeo 
 
 1. La recomendación de instalación es guardarlo en la carpeta de plantillas. Normalmente: C:\Usuarios\[nombre usuario]\Documentos\Plantillas personalizadas de Office
 2. Después hay que seleccionar la plantilla como activa en: Archivo->Opciones de Word->Complementos->Administrar->Complementos de Word ->Ir
-<p align="center">
-  <img src="Imagenes/OpcionesdeWord.jpg" />  
-</p>
+  <img src="Imagenes/OpcionesdeWord.jpg"  />  
 3. Después hay que seleccionar la plantilla para que pueda verse desde cualquier documento como se muestra en la imagen.Con esto ya estará la Macro disponible para ejecutarse desde cualquier documento.
  <p align="center">
   <br><br>
