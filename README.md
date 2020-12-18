@@ -18,8 +18,9 @@ Si no te gusta leer mucho, puedes ver los pasos para instalarlo en este [vídeo 
 ![Opciones de Word](Imagenes/OpcionesdeWord.jpg)
 
 3. Después hay que seleccionar la plantilla para que pueda verse desde cualquier documento como se muestra en la imagen.Con esto ya estará la Macro disponible para ejecutarse desde cualquier documento.
+<p align="center">
 ![Plantilla Instalada](Imagenes/PlantillasInicio.jpg)
- 
+ </p>
  4. (opcional) Para poder ver las macro hay que tener activada la pestaña programador. Si ya la tiene puede saltarse este paso, sino. en Archivo->Opciones->Personalizar Cinta de Opciones, se debe activar la casilla Programador que da acceso a las Macros.
   ![Activar Programador](Imagenes/ActivarProgramador.jpg)
  5. La macro se puede ejecutar desde el Menu Vista-> Macro->Ver Macro-> IniciarCombinarCorrespondencia
