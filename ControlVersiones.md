@@ -16,3 +16,6 @@
 5/12/2020 - v.0.0.1  
                       
                       - Publicación de la primera versión.
+                      
+## Ir a Inicio
+[Ir a inicio](README.md#combinar-correspondencia)
