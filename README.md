@@ -60,6 +60,7 @@ Como complemento de lo que aquí se presenta, desarrollé un curso completo de u
 El botón [Donar](https://www.paypal.com/donate?hosted_button_id=J5DXQN5VCBTVE) esta hecho solo para tí, que sientes que has encontrado la aplicación de tu vida para combinar correspondiencia y que gracias a ella te estas ahorrando muchas horas de trabajo. Estás deseando agradecer al programador su trabajo y no puedes evitar pulsar este botón [Donar](https://www.paypal.com/donate?hosted_button_id=J5DXQN5VCBTVE)  ;-)
 
  ## Sobre el Autor
+ 
   [linkedin - davidbueno](https://www.linkedin.com/in/davidbueno/)
   
   [twitter - davidbuenov](https://twitter.com/davidbuenov)
