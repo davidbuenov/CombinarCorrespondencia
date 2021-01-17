@@ -2,8 +2,8 @@
  En esta carpeta se guardarán varias utilidades de Microsoft Word que se han ido generando por la petición de los usuarios de la aplicación de Combinación de Correspondencia y del [Canal de Youtube](https://www.youtube.com/user/davidbueno). Se muestran a continuación:
  
 1. [Combinar Correspondencia](https://github.com/davidbuenov/CombinarCorrespondencia#instalaci%C3%B3n)
-2. [Dividir Documento en Varios](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/Utilidades/Readme.md#dividir-documento-en-varios)
-3. [Generar Documento a partir de Selección](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/Utilidades/Readme.md#generar-documento-a-partir-de-selecci%C3%B3n)
+2. [Dividir Documento en Varios](https://github.com/davidbuenov/CombinarCorrespondencia/tree/main/Utilidades#dividir-documento-en-varios)
+3. [Generar Documento a partir de Selección](https://github.com/davidbuenov/CombinarCorrespondencia/tree/main/Utilidades#generar-documento-a-partir-de-selecci%C3%B3n)
 4. [Video Tutoriales](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/README.md#video-tutoriales)
 5. [Sobre el Autor](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/README.md#sobre-el-autor) 
  
