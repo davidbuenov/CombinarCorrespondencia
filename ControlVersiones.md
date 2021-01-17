@@ -1,7 +1,10 @@
 # Control de Versiones
 17/12/2020 - V.0.0.4
+
                     - Añadida selección de carpeta destino con FileDialog
+                    
                     - Añadida la posibilidad de adjuntar varios archivos comunes a los correos
+                    
                     - Iconos para Borrar consola y las nuevas opciones
 15/12/2020 - V.0.0.3 
                      
@@ -16,3 +19,7 @@
 5/12/2020 - v.0.0.1  
                       
                       - Publicación de la primera versión.
+                      
+## Ir a Inicio
+[Ir a inicio](README.md#combinar-correspondencia)
+
