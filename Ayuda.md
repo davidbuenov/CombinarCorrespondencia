@@ -52,10 +52,16 @@ En el campo de texto cuerpo del mensaje, que solo se activa al seleccionar el Ch
 ### Contraseña
 ![Ventana Parte 3](Imagenes/ventanaparte3.jpg)
 
+Para poner contraseña a un PDF se necesita instalar PDFCreator. Este no es necesario para poner contraseña a archivos .docx
+
 Respecto a las contraseñas existen tres opciones:
 1. Sin contraseña. Que no requiere instalar PDFCreator y no protegerá los documentos generados
 2. Contraseña única. Que mostrará el "campo contraseña" que se ve en la imagen, y podrá escribirse una contraseña que servirá para abrir todos los documentos generados.
 3. Contraseña individual. Genera una contraseña diferente para cada usuario, y para ello, en el documento base debe aparecer en una página de cada documento a generar, al igual que pasa con el nombre y el correo, un campo con la comilla ´ (comilla a la derecha de la ñ)  ejemplo: ´DavidSecreto´
+
+### Tipo Documento
+
+Los documentos que se pueden generar serán de tipo Word .docx o PDF .pdf. Ambos tipos de documentos pueden protegerse con contraseña
 
 ### Consola
 ![Ventana Parte 4](Imagenes/ventanaparte4.jpg)

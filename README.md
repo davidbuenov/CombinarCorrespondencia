@@ -1,5 +1,18 @@
 # Combinar Correspondencia
- Este proyecto permite realizar combinaciones de correspondencia avanzadas con Microsoft Word, donde el usuario puede elegir que se generen pdfs, que se protejan con contraseña, que cada documento tenga un nombre específico y que se envíen por correo. Los apartados principales son:
+ Este proyecto permite realizar combinaciones de correspondencia avanzadas con Microsoft Word, con las siguientes funciones:
+ 1. El usuario puede elegir el formato de archivos destino: pdfs o .docx
+ 2. Tanto PDF como Word se pueden proteger con contraseña
+ 3. La contraseña puede ser igual para todos los documentos o específica para cada uno.
+ 4. Se puede dar un nombre genérico o único a cada documento generado
+ 5. Se puede seleccionar la carpeta donde se guardarán los documentos
+ 6. Se puede elegir enviar los documentos por correos definiendo el asunto y cuerpo del mensaje.
+ 7. Si se elige enviar correo, se buscarán automáticamente las cuentas existentes en outlook para poder seleccionar una.
+ 8. Si se envía un correo, se pueden enviar tantos archivos como se quieran como adjuntos comunes
+ 9. Se puede seleccionar el número de páginas que tendrá cada subdocumento 
+ 10. Si se utiliza exportación a word, el número de páginas se selecciona automáticamente (usando las secciones)
+ 11. Se dispone de una consola para obtener información sobre proceso, errores y resultado.
+
+  Los apartados principales son:
  
 1. [Instalación](#instalaci%C3%B3n)
 2. [Preparación del documento combinado](Ayuda.md#preparaci%C3%B3n-del-documento-combinado)
