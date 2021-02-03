@@ -18,7 +18,7 @@
 2. [Preparación del documento combinado](Ayuda.md#preparaci%C3%B3n-del-documento-combinado)
 3. [Uso de la aplicación](Ayuda.md#usando-dbv-combinar-correspondencia)
 4. [Video Tutoriales](README.md#video-tutoriales)
-5. [Curso de Microsoft Word](CombinarCorrespondencia.md#curso-de-microsoft-word)
+5. [Curso de Microsoft Word](README.md#curso-de-microsoft-word)
 6. [El Origen](origen.md#origen)
 7. [Sobre el Autor](README.md#sobre-el-autor) 
  

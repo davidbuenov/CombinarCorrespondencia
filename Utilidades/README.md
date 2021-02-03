@@ -5,7 +5,7 @@
 2. [Dividir Documento en Varios](https://github.com/davidbuenov/CombinarCorrespondencia/tree/main/Utilidades#dividir-documento-en-varios)
 3. [Generar Documento a partir de Selección](https://github.com/davidbuenov/CombinarCorrespondencia/tree/main/Utilidades#generar-documento-a-partir-de-selecci%C3%B3n)
 4. [Video Tutoriales](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/README.md#video-tutoriales)
-5. [Curso de Microsoft Word](CombinarCorrespondencia.md#curso-de-microsoft-word)
+5. [Curso de Microsoft Word](../README.md#curso-de-microsoft-word)
 6. [Sobre el Autor](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/README.md#sobre-el-autor) 
  
 ## Dividir Documento en Varios
