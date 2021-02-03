@@ -4,7 +4,7 @@ La ayuda de la aplicación de divide en 3 apartados:
 2. [Preparación del documento combinado](Ayuda.md#preparaci%C3%B3n-del-documento-combinado)
 3. [Uso de la aplicación](Ayuda.md#usando-dbv-combinar-correspondencia)
 4. [Video Tutoriales](README.md#video-tutoriales)
-5. [Curso de Microsoft Word](CombinarCorrespondencia#curso-de-microsoft-word)
+5. [Curso de Microsoft Word](CombinarCorrespondencia.md#curso-de-microsoft-word)
 
 ## Preparación del documento combinado
 
