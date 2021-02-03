@@ -1,4 +1,4 @@
-Attribute VB_Name = "NewMacros"
+Attribute VB_Name = "DBVMacros"
 Option Explicit
 ' Autor: David Bueno Vallejo
 ' twitter: @davidbuenov  linkedin: davidbueno
@@ -44,7 +44,7 @@ Public Sub DividirDocumento()
         End With
     Next numSeccion
     If numSeccion - 1 = 0 Then
-        MsgBox "DBV. Recuerda que al final del documento debes insertar un salto de sección"
+        MsgBox "DBV. Recuerda que al final del documento debes insertar un salto de secciï¿½n"
     Else
         MsgBox "Se han generado: " & numSeccion - 1 & " documentos"
     End If
@@ -61,7 +61,7 @@ ControlErrores:
     MsgBox mensaje
     
 End Sub
-' Guarda la selección como un documento manteniendo los estilos
+' Guarda la selecciï¿½n como un documento manteniendo los estilos
 ' Crea el archivo en la misma carpeta anadiendo .sel al nombre. prueba.docx-->prueba.sel.docx
 Public Sub GuardarSeleccion()
 ' Autor: David Bueno Vallejo
