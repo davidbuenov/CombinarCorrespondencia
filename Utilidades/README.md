@@ -5,7 +5,8 @@
 2. [Dividir Documento en Varios](https://github.com/davidbuenov/CombinarCorrespondencia/tree/main/Utilidades#dividir-documento-en-varios)
 3. [Generar Documento a partir de Selección](https://github.com/davidbuenov/CombinarCorrespondencia/tree/main/Utilidades#generar-documento-a-partir-de-selecci%C3%B3n)
 4. [Video Tutoriales](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/README.md#video-tutoriales)
-5. [Sobre el Autor](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/README.md#sobre-el-autor) 
+5. [Curso de Microsoft Word](CombinarCorrespondencia#curso-de-microsoft-word)
+6. [Sobre el Autor](https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/README.md#sobre-el-autor) 
  
 ## Dividir Documento en Varios
 Esta pequeña aplicación facilita mucho el trabajo cuando queremos dividir un documento en varios. Lo hace generando un archivo nuevo para cada sección. Para preparar el documento habrá que generar una sección por cada parte (desde el menú. Disposición->Saltos->Salto de Sección) y una más al final del documento.
