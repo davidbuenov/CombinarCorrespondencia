@@ -31,6 +31,16 @@ Public Sub DividirDocumento()
     nombreDocs = Mid(docPrincipal, 1, Len(docPrincipal) - 4) 'quita al nombre del documento la extension. Quedaria Todosv4.
     numSeccion = 1
     
+     ' hay que guardar el documento original como plantilla para asociarsela al nuevo documento
+    ActiveDocument.SaveAs2 FileName:=carpeta & "\" & nombreDocs & "dotx", _
+        FileFormat:=wdFormatXMLTemplate, LockComments:=False, _
+        AddToRecentFiles:=False, ReadOnlyRecommended:=False, _
+        EmbedTrueTypeFonts:=False, SaveNativePictureFormat:=False, SaveFormsData _
+        :=False, SaveAsAOCELetter:=False, CompatibilityMode:=15
+    'Al guardarlo como el documento original .docx se cierra. Asi lo abrimos de nuevo
+    Documents.Open (carpeta & "\" & docPrincipal)
+    Documents(docPrincipal).Activate
+    Documents(carpeta & "\" & nombreDocs & "dotx").Close
     
     ' Recorre todas las secciones ignorando el ultimo salto de seccion
     For numSeccion = 1 To Documents(docPrincipal).Sections.Count - 1
@@ -38,7 +48,13 @@ Public Sub DividirDocumento()
             Documents(docPrincipal).Range(Start:=.Range.Start, End:=.Range.End - 1).Select
             Selection.Copy
             Set nuevoDoc = Documents.Add
-            Selection.PasteAndFormat (wdFormatOriginalFormatting)
+            
+            'Le asociamos el formato y los estilos del original
+            With ActiveDocument
+                .UpdateStylesOnOpen = True
+                .AttachedTemplate = carpeta & "\" & nombreDocs & "dotx"
+            End With
+            Selection.PasteAndFormat (wdUseDestinationStylesRecovery)
             nuevoDoc.SaveAs2 FileName:=carpeta & "\" & nombreDocs & numSeccion & ".docx" 'genera path completo. Ej. d:\temp\Todosv4.1.docx
             nuevoDoc.Close
         End With
@@ -61,7 +77,7 @@ ControlErrores:
     MsgBox mensaje
     
 End Sub
-' Guarda la seleccion como un documento manteniendo los estilos
+' Guarda la selección como un documento manteniendo los estilos
 ' Crea el archivo en la misma carpeta anadiendo .sel al nombre. prueba.docx-->prueba.sel.docx
 Public Sub GuardarSeleccion()
 ' Autor: David Bueno Vallejo
@@ -76,15 +92,33 @@ Public Sub GuardarSeleccion()
     
     'carpeta = "d:\temp\generados"  'si queremos marcar ruta especifica
     carpeta = ActiveDocument.Path 'si queremos que se guarde en la misma carpeta
-    
+     
     On Error GoTo ControlErrores
     'quita al nombre del documento la extension. Quedaria Todosv4.
     nombreDocs = Mid(ActiveDocument.Name, 1, Len(ActiveDocument.Name) - 4)
-    
+        
     Selection.Copy
     
+    ' hay que guardar el documento original como plantilla para asociarsela al nuevo documento
+    ActiveDocument.SaveAs2 FileName:=carpeta & "\" & nombreDocs & "dotx", _
+        FileFormat:=wdFormatXMLTemplate, LockComments:=False, _
+        AddToRecentFiles:=False, ReadOnlyRecommended:=False, _
+        EmbedTrueTypeFonts:=False, SaveNativePictureFormat:=False, SaveFormsData _
+        :=False, SaveAsAOCELetter:=False, CompatibilityMode:=15
+    
+    
+    ' Creamos el documento
     Set nuevoDoc = Documents.Add
-    Selection.PasteAndFormat (wdFormatOriginalFormatting)
+    
+    'Le asociamos el formato y los estilos del original
+    With ActiveDocument
+        .UpdateStylesOnOpen = True
+        .AttachedTemplate = carpeta & "\" & nombreDocs & "dotx"
+    End With
+    
+    
+    ' Selection.PasteAndFormat (wdFormatOriginalFormatting)
+    Selection.PasteAndFormat (wdUseDestinationStylesRecovery)
     nuevoDoc.SaveAs2 FileName:=carpeta & "\" & nombreDocs & "sel" & ".docx"
     nuevoDoc.Close
     Exit Sub ' Salida Normal

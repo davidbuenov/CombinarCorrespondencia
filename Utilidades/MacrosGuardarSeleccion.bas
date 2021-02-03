@@ -6,7 +6,7 @@ Option Explicit
 ' Se distribuye bajo licencia GPL v3.0 https://github.com/davidbuenov/CombinarCorrespondencia/blob/main/LICENSE
 
 
-' Guarda la selección como un documento manteniendo los estilos
+' Guarda la seleccion como un documento manteniendo los estilos
 ' Crea el archivo en la misma carpeta anadiendo .sel al nombre. prueba.docx-->prueba.sel.docx
 Public Sub GuardarSeleccion()
 ' Autor: David Bueno Vallejo
@@ -21,15 +21,33 @@ Public Sub GuardarSeleccion()
     
     'carpeta = "d:\temp\generados"  'si queremos marcar ruta especifica
     carpeta = ActiveDocument.Path 'si queremos que se guarde en la misma carpeta
-    
+     
     On Error GoTo ControlErrores
     'quita al nombre del documento la extension. Quedaria Todosv4.
     nombreDocs = Mid(ActiveDocument.Name, 1, Len(ActiveDocument.Name) - 4)
-    
+        
     Selection.Copy
     
+    ' hay que guardar el documento original como plantilla para asociarsela al nuevo documento
+    ActiveDocument.SaveAs2 FileName:=carpeta & "\" & nombreDocs & "dotx", _
+        FileFormat:=wdFormatXMLTemplate, LockComments:=False, _
+        AddToRecentFiles:=False, ReadOnlyRecommended:=False, _
+        EmbedTrueTypeFonts:=False, SaveNativePictureFormat:=False, SaveFormsData _
+        :=False, SaveAsAOCELetter:=False, CompatibilityMode:=15
+    
+    
+    ' Creamos el documento
     Set nuevoDoc = Documents.Add
-    Selection.PasteAndFormat (wdFormatOriginalFormatting)
+    
+    'Le asociamos el formato y los estilos del original
+    With ActiveDocument
+        .UpdateStylesOnOpen = True
+        .AttachedTemplate = carpeta & "\" & nombreDocs & "dotx"
+    End With
+    
+    
+    ' Selection.PasteAndFormat (wdFormatOriginalFormatting)
+    Selection.PasteAndFormat (wdUseDestinationStylesRecovery)
     nuevoDoc.SaveAs2 FileName:=carpeta & "\" & nombreDocs & "sel" & ".docx"
     nuevoDoc.Close
     Exit Sub ' Salida Normal
