@@ -26,7 +26,7 @@ Public Sub DividirDocumento()
     
     'carpeta = "d:\temp\generados"  'si queremos marcar ruta especifica
     carpeta = ActiveDocument.Path 'si queremos que se guarde en la misma carpeta
-    
+    On Error GoTo ControlErrores
     docPrincipal = ActiveDocument.Name
     nombreDocs = Mid(docPrincipal, 1, Len(docPrincipal) - 4) 'quita al nombre del documento la extension. Quedaria Todosv4.
     numSeccion = 1
