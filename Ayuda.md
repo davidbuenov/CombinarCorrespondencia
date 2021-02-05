@@ -62,7 +62,8 @@ Respecto a las contraseñas existen tres opciones:
 
 ### Tipo Documento
 
-Los documentos que se pueden generar serán de tipo Word .docx o PDF .pdf. Ambos tipos de documentos pueden protegerse con contraseña
+Los documentos que se pueden generar serán de tipo Word .docx o PDF .pdf. Dentro de los PDF podremos tener PDF estándar y PDF/A. Tanto los documentos Word generados como los PDF estándares pueden protegerse con contraseña. 
+IMPORTANTE:Si se elige formato PDF/A para los archivos generados, estos no podrán llevar contraseña. El formato PDF/A se utiliza para que los documentos generados puedan durar en el tiempo, por lo que en la mayoría de los casos será suficiente con un PDF estándar.
 
 ### Consola
 ![Ventana Parte 4](Imagenes/ventanaparte4.jpg)

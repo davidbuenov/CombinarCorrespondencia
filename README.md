@@ -1,7 +1,7 @@
 # Combinar Correspondencia
  Este proyecto permite realizar combinaciones de correspondencia avanzadas con Microsoft Word, con las siguientes funciones:
- 1. El usuario puede elegir el formato de archivos destino: pdfs o .docx
- 2. Tanto PDF como Word se pueden proteger con contraseña
+ 1. El usuario puede elegir el formato de archivos destino: pdfs(estándares o PDF/A) o .docx
+ 2. Tanto PDF estándar como Word se pueden proteger con contraseña (no los PDF/A)
  3. La contraseña puede ser igual para todos los documentos o específica para cada uno.
  4. Se puede dar un nombre genérico o único a cada documento generado
  5. Se puede seleccionar la carpeta donde se guardarán los documentos
