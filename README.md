@@ -19,7 +19,7 @@
 2. [Preparación del documento combinado](Ayuda.md#preparaci%C3%B3n-del-documento-combinado)
 3. [Uso de la aplicación](Ayuda.md#usando-dbv-combinar-correspondencia)
 4. [Video Tutoriales](README.md#video-tutoriales)
-6. [Opiniones](Opiniones.md)
+6. [Opiniones- NUEVO](Opiniones.md)
 5. [Otras Utilidades](Utilidades/README.md)
 6. [Curso de Microsoft Word](README.md#curso-de-microsoft-word)
 7. [El Origen](origen.md#origen)
