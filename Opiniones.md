@@ -26,7 +26,7 @@ Muchísimas gracias.
 
 <b>Pedro J Benito</b> Hola David, excelente trabajo, muy útil para profesores y personal de administración que hacemos certificados... Muchas gracias por compartir.
 
-<b>Net</b>Muy buen aporte, estaba buscando cobre y acabo de encontrar oro. Otro suscriptor más.  Muchas gracias David.
+<b>Net</b> Muy buen aporte, estaba buscando cobre y acabo de encontrar oro. Otro suscriptor más.  Muchas gracias David.
 
 <b>Nicolas Rico</b> Amigo, excelente vídeo, gran tutorial, me salvasta un dia de trabajo, muchas gracias crack!
 
@@ -50,7 +50,7 @@ Muchísimas gracias.
 
 <b>Clara Inés Rodriguez</b> Estimado señor David.  Le agradezco mucho su ayuda en este tutorial.  Fue muy instructivo y didáctico. Me resultó muy útil y me ahorró un montón de trabajo. Saludos desde Barranquilla, Colombia.
 
-<b>Reservaciones Kooning Travel</b>Muchas gracias fue de gran ayuda, Saludos desde Cancún.
+<b>Reservaciones Kooning Travel</b> Muchas gracias fue de gran ayuda, Saludos desde Cancún.
 
 <b>Alberto Lezcano</b> Excelente vídeo. Resulta muy útil y fácil de entender. Chapeau!
 
@@ -68,7 +68,7 @@ Muchísimas gracias.
 
 <b>Encarna Guerrero</b> Gracias David, me han ayudado mucho tus vídeos. Me alegro de que compartas tus conocimientos. Aportaciones como las tuyas hacen de Internet una maravilla.
 
-<b>Juan David Ruiz</b>Estimado David, corto en palabras para agradecerte estos maravillosos aportes de acceso libre a tales conocimientos, maravilloso lo que permite hacer el lenguaje de Visual Basic. Me ahorraste días y horas de trabajo frente al computador. Mil y mil gracias. Simplemente fantástico.
+<b>Juan David Ruiz</b> Estimado David, corto en palabras para agradecerte estos maravillosos aportes de acceso libre a tales conocimientos, maravilloso lo que permite hacer el lenguaje de Visual Basic. Me ahorraste días y horas de trabajo frente al computador. Mil y mil gracias. Simplemente fantástico.
 
 <b>Gustavo Azuara</b> Muchas gracias David por compartir tu conocimiento, me diste una excelente herramienta.
 
@@ -80,4 +80,4 @@ Muchísimas gracias.
 
 <b>Adriana Bernabe</b> Señor, mil gracias!!!! Soy maestra y esto.me.ha salvado de horas y horas  de trabajo al mandar las boletas a cada padre de familia... Muchas gracias.
 
-<b>Jesús TG</b>Me quito el sombrero... horas de separar archivos en unos cuantos minutos y con nombre... gracias!!!
+<b>Jesús TG</b> Me quito el sombrero... horas de separar archivos en unos cuantos minutos y con nombre... gracias!!!
