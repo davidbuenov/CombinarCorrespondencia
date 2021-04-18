@@ -3,10 +3,12 @@
 En esta página mostraremos las empresas que amablemente han informado que utilizan al herramienta. Además se muestran algunos de los comentarios más relevantes recibidos en diferentes medios como el Canal de Youtube.
 ## Empresas
 
-Agradecimiento a las empresas que han autorizado su publcación en esta página que utilizan DBV Combinar Correspondencia. Si es tu caso y te gustaría aparecer en esta lista no dudes en comunicarmelo.
+Agradecimiento a las empresas que han autorizado su publicación en esta página que utilizan DBV Combinar Correspondencia. Si es tu caso y te gustaría aparecer en esta lista no dudes en comunicarmelo.
 
 <img src="Imagenes/Logos/Logo_LCS.png" height="100" />
-[<img src="Imagenes/Logos/bosco_films_logo.png" height="100"/>](https://www.boscofilms.es/)
+<img src="Imagenes/Logos/bosco_films_logo.png" height="100"/> 
+
+[Bosco Films](https://www.boscofilms.es/)
 
 ## Opiniones Youtube
 Opiniones en los videos donde se explica DBV Combinar correspondencia que pueden verse [aquí](https://youtube.com/playlist?list=PLnNbmcjjevxss8tF1cEtOe9eh6q6eJQd9). Agradecer a todos los que habéis dedicado vuestro tiempo a comentar la aplicación y los vídeos.
@@ -81,3 +83,6 @@ Muchísimas gracias.
 <b>Adriana Bernabe</b> Señor, mil gracias!!!! Soy maestra y esto.me.ha salvado de horas y horas  de trabajo al mandar las boletas a cada padre de familia... Muchas gracias.
 
 <b>Jesús TG</b> Me quito el sombrero... horas de separar archivos en unos cuantos minutos y con nombre... gracias!!!
+
+## Ir a Home
+[Volver a la página principal](README.md#combinar-correspondencia)
