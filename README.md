@@ -6,11 +6,12 @@
  4. Se puede dar un nombre genérico o único a cada documento generado
  5. Se puede seleccionar la carpeta donde se guardarán los documentos
  6. Se puede elegir enviar los documentos por correos definiendo el asunto y cuerpo del mensaje.
- 7. Si se elige enviar correo, se buscarán automáticamente las cuentas existentes en outlook para poder seleccionar una.
- 8. Si se envía un correo, se pueden enviar tantos archivos como se quieran como adjuntos comunes
- 9. Se puede seleccionar el número de páginas que tendrá cada subdocumento 
- 10. Si se utiliza exportación a word, el número de páginas se selecciona automáticamente (usando las secciones)
- 11. Se dispone de una consola para obtener información sobre proceso, errores y resultado.
+ 7. El cuerpo del mensaje puede escribirse en texto plano o en HTML
+ 8. Si se elige enviar correo, se buscarán automáticamente las cuentas existentes en outlook para poder seleccionar una.
+ 9. Si se envía un correo, se pueden enviar tantos archivos como se quieran como adjuntos comunes
+ 10. Se puede seleccionar el número de páginas que tendrá cada subdocumento 
+ 11. Si se utiliza exportación a word, el número de páginas se selecciona automáticamente (usando las secciones)
+ 12. Se dispone de una consola para obtener información sobre proceso, errores y resultado.
 
   Los apartados principales son:
  
@@ -18,6 +19,7 @@
 2. [Preparación del documento combinado](Ayuda.md#preparaci%C3%B3n-del-documento-combinado)
 3. [Uso de la aplicación](Ayuda.md#usando-dbv-combinar-correspondencia)
 4. [Video Tutoriales](README.md#video-tutoriales)
+6. [Opiniones](Opiniones.md)
 5. [Otras Utilidades](Utilidades/README.md)
 6. [Curso de Microsoft Word](README.md#curso-de-microsoft-word)
 7. [El Origen](origen.md#origen)
