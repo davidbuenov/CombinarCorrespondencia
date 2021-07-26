@@ -100,6 +100,8 @@ El botón [Donar](https://www.paypal.com/donate?hosted_button_id=J5DXQN5VCBTVE) 
 
  ## Sobre el Autor
  
+ Si te gustaría recibir novedades rellena este simple formulario. https://forms.gle/n2EUWcmBsCa4FscS6
+ 
   [linkedin - davidbueno](https://www.linkedin.com/in/davidbueno/)
   
   [twitter - davidbuenov](https://twitter.com/davidbuenov)
