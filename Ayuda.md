@@ -10,10 +10,10 @@ La ayuda de la aplicación de divide en 3 apartados(nuevo):
 
  Si le resulta más facil, puede ver el [video tutorial sobre el uso de la aplicación](https://youtu.be/CeAmDicTyQo)
 
- Utilizando un documento excel como el que se encuentra en [Ejemplos/empleadosv4.xlsx](Ejemplos/empleadosv4.xlsx):
+ Utilizando un documento excel como el que se encuentra en [Ejemplos/empleadosv5.xlsx](Ejemplos/empleadosv5.xlsx):
  ![Excel Empleados](Imagenes/excel1.jpg)
  
- y un documento como [Ejemplos/cartaempleadosv4.docx](Ejemplos/cartaempleadosv4.docx) que antes de combinar quedaría así:
+ y un documento como [Ejemplos/cartaempleadosv4.docx](Ejemplos/cartaempleadosv5.docx) que antes de combinar quedaría así:
   ![Word Empleados](Imagenes/word1.jpg)
   
   y después de combinar:
@@ -21,11 +21,27 @@ La ayuda de la aplicación de divide en 3 apartados(nuevo):
  
  
  Se debe realizar la correspondencia con un documento word generando un archivo único (En Word->Correspondencia->Finalizar y Combinar->Editar Documentos Individuales->Todos. Ver ejemplo en: [#1 Combinar correspondencia y generar PDFs individuales](https://youtu.be/PJYR6Cc9ovU). Desde el documento que se genere, será desde el que funcione nuestra aplicación.
+
+ IMPORTANTE: El contenido del video es válido para las versiones anteriores a la 1.3 en lo relativo a los caracteres especiales. A partir de la versión 1.3 donde antes se ponía:
+ 1. Para el nombre del archivo:
+
+Versiones 1.2 y anteriores -  Antes de combinar: _«EMPLEADO»- despues de combinar: _David-  
+Versión 1.3 y posteriores- Antes de combinar: DBV_NOMBRE«EMPLEADO» DBV_FIN  después de combinar: DBV_NOMBREDavidDBV_FIN
+
+
+
+2. Para el correo electrónico:
+Versiones 1.2 y anteriores - Antes de combinar: ç«EMAIL»ç después de combinar: çcursodbv@mailinator.comç
+Versión 1.3 y posteriores- Antes de combinar: DBV_CORREO«EMAIL»DBV_FIN  después de combinar: DBV_CORREOcursodbv@mailinator.comDBV_FIN
  
- El documento debe tener una entrada especial para los casos de: "nombres de archivo personalizado", "envio a correo electrónico" y "generación de contraseña individual". que serían los siguientes.
- 1. Para que funcione correctamente el botón de "Nombres archivos personalizados"  deberá aparecer en una de las páginas de cada documento el caracter _ seguido del nombre del archivo y terminado en el un guión - . Ejemplo, antes de combinar: _«EMPLEADO»- despues de combinar: _David-
- 2. Para que funcione bien el envío a correo deberá aparecer en una de las páginas de cada documento la dirección de correo con el caracter ç al inicio y al final. Ejemplo, antes de combinar: ç«EMAIL»ç después de combinar: çcursodbv@mailinator.comç
- 3. Para que funcione la opción "Contraseña individual", hay que generar ´ (comilla a la derecha de la ñ)  contraseña para el archivo y de nuevo ´. Ejemplo, antes de combinar: ´«CONTRASENA»´  y después de combinar: ´DavidSecreto´
+3- Para que funcione la opción "Contraseña individual", hay que generar:
+Versiones 1.2 y anteriores - Antes de combinar: ´«CONTRASENA»´  y después de combinar: ´DavidSecreto´
+Versión 1.3 y posteriores- Antes de combinar: DBV_CONTRA«CONTRASENA»DBV_FIN  después de combinar: DBV_CONTRADavidSecretoDBV_FIN
+
+DBV_CORREO«EMAIL»DBV_FIN
+DBV_CONTRA«CONTRASENA»DBV_FIN
+
+ 
 ## Usando DBV Combinar Correspondencia
 Una vez generado el archivo único que contendrá todos los documentos independientes, se puede usar la herramienta. Veremos a continuación los distintos campos de la misma con sus variaciones.
 ### Carpeta Destino
