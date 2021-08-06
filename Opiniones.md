@@ -5,13 +5,18 @@ En esta página mostraremos las empresas que amablemente han informado que utili
 
 Agradecimiento a las empresas que han autorizado su publicación en esta página que utilizan DBV Combinar Correspondencia. Si es tu caso y te gustaría aparecer en esta lista no dudes en comunicarmelo.
 
+<img src="Imagenes/Logos/covidwarriors.jpg" height="100" />
+
 <img src="Imagenes/Logos/Logo_LCS.png" height="100" />
+
 <img src="Imagenes/Logos/bosco_films_logo.png" height="100"/> 
 
 [Bosco Films](https://www.boscofilms.es/)
 
 ## Opiniones Youtube
 Opiniones en los videos donde se explica DBV Combinar correspondencia que pueden verse [aquí](https://youtube.com/playlist?list=PLnNbmcjjevxss8tF1cEtOe9eh6q6eJQd9). Agradecer a todos los que habéis dedicado vuestro tiempo a comentar la aplicación y los vídeos.
+
+<b>Enjoy</b> Muchas gracias, ha salvado un negocio en México!!! Le estamos agradecidos y yo en lo personal porque he recordado cosas que aprendí hace muchos años.
 
 <b>Laia A</b> Estos vídeos me han salvado la vida, muchas gracias!! :D
 
