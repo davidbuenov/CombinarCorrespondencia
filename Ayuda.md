@@ -1,5 +1,5 @@
 # Ayuda de la aplicación Combinar Correspondencia
-La ayuda de la aplicación de divide en 3 apartados:
+La ayuda de la aplicación de divide en 3 apartado s:
 1. [Instalación](README.md)
 2. [Preparación del documento combinado](Ayuda.md#preparaci%C3%B3n-del-documento-combinado)
 3. [Uso de la aplicación](Ayuda.md#usando-dbv-combinar-correspondencia)
