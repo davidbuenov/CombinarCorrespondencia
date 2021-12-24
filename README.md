@@ -12,22 +12,33 @@
  10. Se puede seleccionar el número de páginas que tendrá cada subdocumento 
  11. Si se utiliza exportación a word, el número de páginas se selecciona automáticamente (usando las secciones)
  12. Se dispone de una consola para obtener información sobre proceso, errores y resultado.
+ 13. Se pueden separar la generación y el envío de los documentos en 2 Fases. Esto permite que se firmen externamente los documentos, por ejemplo, con portafirmas, y una vez que estén firmados que se envíen. 
+ 14. Permite el envío retrasado de los correos. De forma general, usando una fecha y hora para todos los correos o de forma personalizada con la nueva etiqueta DBVFECHA.
+
+A partir de la versión 2.0 se entrega como una macro autofirmada para darle mayor seguridad al usuario.
 
   Los apartados principales son:
  
-1. [Instalación](#instalaci%C3%B3n)
-2. [Preparación del documento combinado](Ayuda.md#preparaci%C3%B3n-del-documento-combinado)
-3. [Uso de la aplicación](Ayuda.md#usando-dbv-combinar-correspondencia)
-4. [Video Tutoriales](README.md#video-tutoriales)
-6. [Opiniones- NUEVO](Opiniones.md)
-5. [Otras Utilidades](Utilidades/README.md)
-6. [Curso de Microsoft Word](README.md#curso-de-microsoft-word)
-7. [El Origen](origen.md#origen)
-8. [Sobre el Autor](README.md#sobre-el-autor) 
+- [Combinar Correspondencia](#combinar-correspondencia)
+  - [Instalación](#instalación)
+    - [Instalación Básica](#instalación-básica)
+    - [Instalación Contraseñas](#instalación-contraseñas)
+    - [Instalación certificado](#instalación-certificado)
+    - [Eliminar Advertencias de Seguridad](#eliminar-advertencias-de-seguridad)
+  - [Preparación de documento combinado](#preparación-de-documento-combinado)
+  - [Usando DBV Combinar Correspondencia](#usando-dbv-combinar-correspondencia)
+  - [Video tutoriales](#video-tutoriales)
+  - [Origen](#origen)
+  - [Curso de Microsoft Word](#curso-de-microsoft-word)
+  - [Donar](#donar)
+  - [Sobre el Autor](#sobre-el-autor)
+  - [Ir a Inicio](#ir-a-inicio)
  
 ## Instalación
 La aplicación viene en un único documento de plantillas de Microsoft Word que se llama DBVMacrosCombinarCorrespondencia.dotm (en la carpeta Aplicación). 
 Si no te gusta leer mucho, puedes ver los pasos para instalarlo en este [vídeo tutorial de la instalación](https://youtu.be/GCoHx2JaaMI)
+
+### Instalación Básica
 
 1. La recomendación de instalación es guardarlo en la carpeta de plantillas. Normalmente: C:\Usuarios\[nombre usuario]\Documentos\Plantillas personalizadas de Office
 2. Después hay que seleccionar la plantilla como activa en: Archivo->Opciones de Word->Complementos->Administrar->Complementos de Word ->Ir
@@ -56,8 +67,10 @@ Si no te gusta leer mucho, puedes ver los pasos para instalarlo en este [vídeo 
   <br><br>
   <img src="Imagenes/FormularioCombinar.jpg" />  
 </p>
- 7. Con lo realizado hasta ahora funcionará todo salvo la generación de contraseñas. Si no es necesario poner contraseña a los archivos no hay que hacer nada más, si no siga los siguientes pasos.
- 8. Para poder poner contraseña a los pdf que se generan es necesario descargar la herramienta PDFCreator (freeware) que además de ser una herramienta muy potente para generar y usar archivos pdf, dispone de [una potente API](https://docs.pdfforge.org/pdfcreator/en/pdfcreator/com-interface/) en varios lenguajes de programación que facilita el uso de pdfs desde nuestros programas. Para nuestra aplicación es suficiente con la versión gratuita, aunque la versión profesional tiene un coste de unos 16€/año (NOTA: PDF Creator no patrocina esta Web). Habría que descargar PDFCreator [aquí](https://www.pdfforge.org/pdfcreator/download).  Siga los pasos del asistente y puede rechazar si le pide instalar un antivirus. Probablemente instale PDFArchitect que se puede desinstalar si no interesa, aunque es una herramienta simila a Adobe Acrobat.
+
+### Instalación Contraseñas
+ 1. Con lo realizado hasta ahora funcionará todo salvo la generación de contraseñas. Si no es necesario poner contraseña a los archivos no hay que hacer nada más, si no siga los siguientes pasos.
+ 2. Para poder poner contraseña a los pdf que se generan es necesario descargar la herramienta PDFCreator (freeware) que además de ser una herramienta muy potente para generar y usar archivos pdf, dispone de [una potente API](https://docs.pdfforge.org/pdfcreator/en/pdfcreator/com-interface/) en varios lenguajes de programación que facilita el uso de pdfs desde nuestros programas. Para nuestra aplicación es suficiente con la versión gratuita, aunque la versión profesional tiene un coste de unos 16€/año (NOTA: PDF Creator no patrocina esta Web). Habría que descargar PDFCreator [aquí](https://www.pdfforge.org/pdfcreator/download).  Siga los pasos del asistente y puede rechazar si le pide instalar un antivirus. Probablemente instale PDFArchitect que se puede desinstalar si no interesa, aunque es una herramienta simila a Adobe Acrobat.
  Primer paso del instalador...
  
  <p align="center">
@@ -72,7 +85,64 @@ Si no te gusta leer mucho, puedes ver los pasos para instalarlo en este [vídeo 
   <img src="Imagenes/PDFCreator2.jpg" />  
 </p>
  
- 9. Con esto es suficiente y la aplicación de combianar correspondencia ya sería totalmente funcional.
+ 3. Con esto es suficiente y la aplicación de combinar correspondencia ya sería totalmente funcional.
+
+### Instalación certificado
+Si se va a utilizar mucho la macro, lo recomendable es instalar el certificado asociado para que Microsoft Word no diga que hay peligro con la macro. El Certificado se encuentra en la carpeta Aplicacion al igual que la macro y se llama DBVCombinarCorrespondencia.cer. 
+1. Hacer doble clic sobre el certificado.
+   <p align="center">
+  <br><br>
+  <img src="Imagenes/Certificado1.jpg" />  
+</p>
+2. Pulsar Instalar certificado...
+    <p align="center">
+  <br><br>
+  <img src="Imagenes/Certificado2.jpg" />  
+</p>
+3. Pulsar Siguiente
+ <p align="center">
+  <br><br>
+  <img src="Imagenes/Certificado3.jpg" />  
+</p>
+4. Pulsar Siguiente
+ <p align="center">
+  <br><br>
+  <img src="Imagenes/Certificado4.jpg" />  
+</p>
+5. Al pulsar Finalizar aparece la siguiente advertencia. Verificar que la Huella Digital de la imagen coincide con la que aparece en la ventana, lo que implicará que es mi certificado y que no ha sido manipulado.
+ <p align="center">
+  <br><br>
+  <img src="Imagenes/Certificado5.jpg" />  
+</p>
+Al pulsar si, vemos que el certificado ya no tiene una x, en el icono del diploma
+ <p align="center">
+  <br><br>
+  <img src="Imagenes/Certificado6.jpg" />  
+</p>
+
+ ### Eliminar Advertencias de Seguridad
+ Si se intenta abrir la macro o crear un documento basada en ella, veremos una imagen como esta: 
+
+
+ <p align="center">
+  <br><br>
+  <img src="Imagenes/macrosegura1.jpg" />  
+</p>
+1. En lugar de pulsar sobre Habilitar Contenido (como hacemos con cada aplicación de móvil) vamos a pulsar en “Las macros se han deshabilitado” en la  pantalla anterior. Eso hará aparecer la siguiente pantlla y seleccionaremos "Opciones avanzadas"
+<p align="center">
+  <br><br>
+  <img src="Imagenes/macrosegura2.jpg" />  
+</p>
+En la siguiente pantalla seleccionamos "Confiar en todos los documentos de este editor"
+<p align="center">
+  <br><br>
+  <img src="Imagenes/macrosegura3.jpg" />  
+</p>
+A partir de este momento, al abrir la macro o algún documento basado en la macro, ya no aparecerán alertas de seguridad.
+<p align="center">
+  <br><br>
+  <img src="Imagenes/macrosegura4.jpg" />  
+</p>
  
  ## Preparación de documento combinado
  Los pasos se detallan en la Ayuda: [Preparación del documento combinado](Ayuda.md#preparaci%C3%B3n-del-documento-combinado)
