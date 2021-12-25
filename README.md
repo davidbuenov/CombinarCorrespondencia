@@ -92,32 +92,32 @@ Si se va a utilizar mucho la macro, lo recomendable es instalar el certificado a
 1. Hacer doble clic sobre el certificado.
    <p align="center">
   <br><br>
-  <img src="Imagenes/Certificado1.jpg" />  
+  <img src="Imagenes/certificado1.jpg" />  
 </p>
 2. Pulsar Instalar certificado...
     <p align="center">
   <br><br>
-  <img src="Imagenes/Certificado2.jpg" />  
+  <img src="Imagenes/certificado2.jpg" />  
 </p>
 3. Pulsar Siguiente
  <p align="center">
   <br><br>
-  <img src="Imagenes/Certificado3.jpg" />  
+  <img src="Imagenes/certificado3.jpg" />  
 </p>
 4. Pulsar Siguiente
  <p align="center">
   <br><br>
-  <img src="Imagenes/Certificado4.jpg" />  
+  <img src="Imagenes/certificado4.jpg" />  
 </p>
 5. Al pulsar Finalizar aparece la siguiente advertencia. Verificar que la Huella Digital de la imagen coincide con la que aparece en la ventana, lo que implicará que es mi certificado y que no ha sido manipulado.
  <p align="center">
   <br><br>
-  <img src="Imagenes/Certificado5.jpg" />  
+  <img src="Imagenes/certificado5.jpg" />  
 </p>
 Al pulsar si, vemos que el certificado ya no tiene una x, en el icono del diploma
  <p align="center">
   <br><br>
-  <img src="Imagenes/Certificado6.jpg" />  
+  <img src="Imagenes/certificado6.jpg" />  
 </p>
 
  ### Eliminar Advertencias de Seguridad
