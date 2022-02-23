@@ -25,6 +25,7 @@ A partir de la versión 2.0 se entrega como una macro autofirmada para darle may
     - [Instalación Contraseñas](#instalación-contraseñas)
     - [Instalación certificado](#instalación-certificado)
     - [Eliminar Advertencias de Seguridad](#eliminar-advertencias-de-seguridad)
+    - [Instalación de la barra de herramientas](#instalación-de-la-barra-de-herramientas)
   - [Preparación de documento combinado](#preparación-de-documento-combinado)
   - [Usando DBV Combinar Correspondencia](#usando-dbv-combinar-correspondencia)
   - [Video tutoriales](#video-tutoriales)
@@ -36,9 +37,11 @@ A partir de la versión 2.0 se entrega como una macro autofirmada para darle may
  
 ## Instalación
 La aplicación viene en un único documento de plantillas de Microsoft Word que se llama DBVMacrosCombinarCorrespondencia.dotm (en la carpeta Aplicación). 
-Si no te gusta leer mucho, puedes ver los pasos para instalarlo en este [vídeo tutorial de la instalación](https://youtu.be/GCoHx2JaaMI)
+Si no te gusta leer mucho, puedes ver los pasos para instalarlo en esta [lista de vídeo tutoriales de la instalación](https://www.youtube.com/playlist?list=PLnNbmcjjevxuaT1lxybah8YnhoN4iAzVJ) en cada apartado se encuentra el vídeo específico.
 
 ### Instalación Básica
+
+[2 DBV Combinar Correspondencia 2.0. Instalación Básica](https://www.youtube.com/watch?v=Rhtx0s7yfE8&list=PLnNbmcjjevxuaT1lxybah8YnhoN4iAzVJ&index=3&t=2s&ab_channel=DavidBuenoVallejo)
 
 1. La recomendación de instalación es guardarlo en la carpeta de plantillas. Normalmente: C:\Usuarios\[nombre usuario]\Documentos\Plantillas personalizadas de Office
 2. Después hay que seleccionar la plantilla como activa en: Archivo->Opciones de Word->Complementos->Administrar->Complementos de Word ->Ir
@@ -69,6 +72,9 @@ Si no te gusta leer mucho, puedes ver los pasos para instalarlo en este [vídeo 
 </p>
 
 ### Instalación Contraseñas
+
+[4 DBV Combinar Correspondencia 2.0. Instalación PDF Creator](https://www.youtube.com/watch?v=vuofYnj00nY&list=PLnNbmcjjevxuaT1lxybah8YnhoN4iAzVJ&index=5)
+
  1. Con lo realizado hasta ahora funcionará todo salvo la generación de contraseñas. Si no es necesario poner contraseña a los archivos no hay que hacer nada más, si no siga los siguientes pasos.
  2. Para poder poner contraseña a los pdf que se generan es necesario descargar la herramienta PDFCreator (freeware) que además de ser una herramienta muy potente para generar y usar archivos pdf, dispone de [una potente API](https://docs.pdfforge.org/pdfcreator/en/pdfcreator/com-interface/) en varios lenguajes de programación que facilita el uso de pdfs desde nuestros programas. Para nuestra aplicación es suficiente con la versión gratuita, aunque la versión profesional tiene un coste de unos 16€/año (NOTA: PDF Creator no patrocina esta Web). Habría que descargar PDFCreator [aquí](https://www.pdfforge.org/pdfcreator/download).  Siga los pasos del asistente y puede rechazar si le pide instalar un antivirus. Probablemente instale PDFArchitect que se puede desinstalar si no interesa, aunque es una herramienta simila a Adobe Acrobat.
  Primer paso del instalador...
@@ -88,6 +94,9 @@ Si no te gusta leer mucho, puedes ver los pasos para instalarlo en este [vídeo 
  3. Con esto es suficiente y la aplicación de combinar correspondencia ya sería totalmente funcional.
 
 ### Instalación certificado
+
+[3 DBV Combinar Correspondencia 2.0. Instalación del Certificado](https://www.youtube.com/watch?v=bMTvQuRNacM&list=PLnNbmcjjevxuaT1lxybah8YnhoN4iAzVJ&index=4&ab_channel=DavidBuenoVallejo)
+
 Si se va a utilizar mucho la macro, lo recomendable es instalar el certificado asociado para que Microsoft Word no diga que hay peligro con la macro. El Certificado se encuentra en la carpeta Aplicacion al igual que la macro y se llama DBVCombinarCorrespondencia.cer. 
 1. Hacer doble clic sobre el certificado.
    <p align="center">
@@ -144,18 +153,25 @@ A partir de este momento, al abrir la macro o algún documento basado en la macr
   <img src="Imagenes/macrosegura4.jpg" />  
 </p>
  
+
+### Instalación de la barra de herramientas
+
+Resulta muy fácil usar la aplicación si se instala un par de botones en la barra de herramientas. Eso se explica en el vídeo. [5 DBV Combinar Correspondencia 2.0. Instalar Barra Herramientas](https://www.youtube.com/watch?v=S0WhCmg7vkA&list=PLnNbmcjjevxuaT1lxybah8YnhoN4iAzVJ&index=6&ab_channel=DavidBuenoVallejo)
+
  ## Preparación de documento combinado
  Los pasos se detallan en la Ayuda: [Preparación del documento combinado](Ayuda.md#preparaci%C3%B3n-del-documento-combinado)
 
 ## Usando DBV Combinar Correspondencia
 
-PUedes ver como se usa en este [video sobre cómo usar la aplicación](https://youtu.be/CeAmDicTyQo)
+PUedes ver como se usa en los vídeos 6 a 9 de la  [lista de tutoriales de DBV Combinar Correspondencia](https://www.youtube.com/playlist?list=PLnNbmcjjevxuaT1lxybah8YnhoN4iAzVJ)
 o seguir los pasos que se detallan en la Ayuda: [Uso de la aplicación](Ayuda.md#usando-dbv-combinar-correspondencia)
 ## Video tutoriales
-Para todos los que prefieren que les cuenten las cosas y ver como funcionan he creado los siguientes videos:
-1. [Vídeo tutorial de la instalación](https://youtu.be/GCoHx2JaaMI)
+Para todos los que prefieren que les cuenten las cosas y ver como funcionan he creado 11 videos que están en la lista de reproducción :
 
-2. [Tutorial sobre cómo usar la aplicación](https://youtu.be/CeAmDicTyQo)
+
+[lista de tutoriales de DBV Combinar Correspondencia](https://www.youtube.com/playlist?list=PLnNbmcjjevxuaT1lxybah8YnhoN4iAzVJ)
+
+
 
 ## Origen
 Te gustaría conocer la historia de por qué cree esta aplicación. Puedes verla en [El Origen](origen.md)

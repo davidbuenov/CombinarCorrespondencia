@@ -8,7 +8,7 @@ La ayuda de la aplicación de divide en 3 apartados(nuevo):
 
 ## Preparación del documento combinado
 
- Si le resulta más facil, puede ver el [video tutorial sobre el uso de la aplicación](https://youtu.be/CeAmDicTyQo) (Pendiente de actualización)
+ Si le resulta más facil, puede ver la  [lista de reproducción para el uso de la herramienta completa](https://www.youtube.com/playlist?list=PLnNbmcjjevxuaT1lxybah8YnhoN4iAzVJ) y en cada apartado se irá poniendo el vídeo específico. 
 
  Utilizando un documento excel como el que se encuentra en [Ejemplos/empleadosv2.0.xlsx](Ejemplos/empleadosv2.0.xlsx):
  ![Excel Empleados](Imagenes/excel1.jpg)
@@ -20,7 +20,7 @@ La ayuda de la aplicación de divide en 3 apartados(nuevo):
    ![Word Empleados](Imagenes/word2.jpg)
  
  
- Se debe realizar la correspondencia con un documento word generando un archivo único (En Word->Correspondencia->Finalizar y Combinar->Editar Documentos Individuales->Todos. Ver ejemplo en: [#1 Combinar correspondencia y generar PDFs individuales](https://youtu.be/PJYR6Cc9ovU). Desde el documento que se genere, será desde el que funcione nuestra aplicación.
+ Se debe realizar la correspondencia con un documento word generando un archivo único (En Word->Correspondencia->Finalizar y Combinar->Editar Documentos Individuales->Todos. Ver ejemplo en: [#1 Combinar correspondencia 2.0. Generar Documento Combinado](https://www.youtube.com/watch?v=Wktsw9YIUPI&list=PLnNbmcjjevxuaT1lxybah8YnhoN4iAzVJ&index=2&ab_channel=DavidBuenoVallejo). Desde el documento que se genere, será desde el que funcione nuestra aplicación.
 
  IMPORTANTE: El contenido del video es válido para las versiones posteriores a la 1.3 en lo relativo a los caracteres especiales. A partir de la versión 1.3 donde antes se ponía:
  1. Para el nombre del archivo:
@@ -40,7 +40,14 @@ Versión 1.3 y posteriores- Antes de combinar: DBV_CONTRA«CONTRASENA»DBV_FIN  
 4. Solo disponible desde la versión 2.0 está la fecha de retraso de envío: DBV_FECHA«FECHA»DBV_FIN después de combinar DBV_FECHA12/23/2021 8:07:00 PMDBV_FIN
  
 ## Usando DBV Combinar Correspondencia
-Una vez generado el archivo único que contendrá todos los documentos independientes, se puede usar la herramienta. Veremos a continuación los distintos campos de la misma con sus variaciones.
+Una vez generado el archivo único que contendrá todos los documentos independientes, se puede usar la herramienta. Veremos a continuación los distintos campos de la misma con sus variaciones. 
+
+Los videos asociados con esta parte son:
+[6.1 DBV Combinar Correspondencia 2.0. Combinar Básico PDF](https://www.youtube.com/watch?v=AcN9qkEB5Xc&list=PLnNbmcjjevxuaT1lxybah8YnhoN4iAzVJ&index=7&ab_channel=DavidBuenoVallejo)
+[6.2 DBV Combinar Correspondencia 2.0. Combinar Básico a Word](https://www.youtube.com/watch?v=R5wD-SSJhmc&list=PLnNbmcjjevxuaT1lxybah8YnhoN4iAzVJ&index=8&t=2s&ab_channel=DavidBuenoVallejo)
+
+
+
 ### Carpeta Destino
 ![Ventana Parte 1](Imagenes/ventanaparte1.jpg)
 
@@ -52,6 +59,9 @@ Existen dos formas de generar los nombres de los documentos. De forma genérica 
 
 Si se selecciona el checkbox nombre archivos personalizados, se desabilita el campo nombre documentos, y el nombre que se tomará será el que debe aparecer en cada uno de los documentos combinados, con la combinación especial DBV_NOMBREnombreDBV_FIN. Es decir que si en la página aparece DBV_NOMBREdavidDBV_FIN  el documento que se generará sera david.pdf  
 ### Correos
+
+[7 DBV Combinar Correspondencia 2.0. Envío de Correos](https://www.youtube.com/watch?v=dP708e9YD68&list=PLnNbmcjjevxuaT1lxybah8YnhoN4iAzVJ&index=9&t=9s&ab_channel=DavidBuenoVallejo)
+
 ![Ventana Parte 2](Imagenes/ventanaparte2.jpg)
 
 Si se mantiene el checkbox "Enviar correo" desabilitado no se envía ningún correo. 
@@ -65,6 +75,8 @@ En el campo de texto cuerpo del mensaje, que solo se activa al seleccionar el Ch
 
 #### Envio Retrasado
 
+[8 DBV Combinar Correspondencia 2.0. Retrasar Envíos](https://www.youtube.com/watch?v=pLR0QUNA_4Y&list=PLnNbmcjjevxuaT1lxybah8YnhoN4iAzVJ&index=10&t=1s&ab_channel=DavidBuenoVallejo)
+
 En algunas situaciones puede ser necesario que los correos no se envíen en el momento, si no que se retrasen en el tiempo. Pudiendo darse dos tipos de circustancias. Que quieran restrasarse todos los correos a una fecha concreta, todos igual, o que se quiera indicar una fecha distinta para cada correo, por ejemplo para enviar en fecha de cumpleaños una felicitación, o si somos una compañia de seguros, para enviarlo antes de que caduque la póliza.  Ambas opciones son posibles. Para ello solo hay que marcar el checkbox "Retrasar Envios" que aparece tras seleccionar enviar correos. Si se quiere que todos los correos se envíen en la misma fecha habrá que marcar "Igual para todos" como se muestra en la siguiente imagen.
 ![Ventana Parte 2-1](Imagenes/ventanaparte2-1.jpg)
 
@@ -73,6 +85,9 @@ Si se marca personalizado. La fecha de cada envío se incluyen en el excel (ver 
 ![Ventana Parte 2-2](Imagenes/ventanaparte2-2.jpg)
 
 #### Envío en dos fases
+
+[9 DBV Combinar Correspondencia 2.0. Generar Firmar y Enviar](https://www.youtube.com/watch?v=Oja7NfSpc0M&list=PLnNbmcjjevxuaT1lxybah8YnhoN4iAzVJ&index=11&t=2s&ab_channel=DavidBuenoVallejo)
+
 Algunos usuarios han necesitado firmar los documentos después de generarlos. Esa funcionalidad está disponible desde la versión 2.0 y para ello ha habido que separar el proceso en dos Fases. En la primera fase se generan los documentos. Luego externamente se firman y en la segunda fase se envían. 
 
 1. Para activar este proceso hay que marcar el botón que pone "1 Fase" en la zona de correo y podrán verse los siguientes cambios: Al activar las dos fases el botón Aceptar de la parte inferior de la ventana desaparece y se crean dos botones nuevos: "Fase 1. Generación" y "Fase 2. Envío". A continuación se muestran las ventanas para una y dos fases.
@@ -120,6 +135,9 @@ Cuando se han configurado todos los parámetros, se pulsa el botón Aceptar para
 ### Salir
 Pulsando el botón Salir se cierra la aplicación.
 ### Donar y Ayuda
+
+[10 DBV Combinar Correspondencia 2.0. Ayuda y Colaboración](https://www.youtube.com/watch?v=8GcOyc3DYVY&list=PLnNbmcjjevxuaT1lxybah8YnhoN4iAzVJ&index=12&ab_channel=DavidBuenoVallejo)
+
 El botón [Donar](https://www.paypal.com/donate?hosted_button_id=J5DXQN5VCBTVE) esta hecho solo para tí, que sientes que has encontrado la aplicación de tu vida para combinar correspondiencia y que gracias a ella te estas ahorrando muchas horas de trabajo. Estás deseando agradecer al programador su trabajo y no puedes evitar pulsar este botón [Donar](https://www.paypal.com/donate?hosted_button_id=J5DXQN5VCBTVE)  ;-)
 ### Ayuda
 El botón de Ayuda lleva a este documento. 
