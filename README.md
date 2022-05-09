@@ -108,7 +108,7 @@ Si se va a utilizar mucho la macro, lo recomendable es instalar el certificado a
   <br><br>
   <img src="Imagenes/certificado2.jpg" />  
 </p>
-3. Pulsar Siguiente
+3. Pulsar Siguiente (si al finalizar el proceso el certificado no estuviera bien instalados, seleccionar la segunda opción: "Colocar todos los certificados en el siguiente almacen"  y elegir "Entidades de certificación raíz de confianza")
  <p align="center">
   <br><br>
   <img src="Imagenes/certificado3.jpg" />  
