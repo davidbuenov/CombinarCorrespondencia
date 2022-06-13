@@ -12,6 +12,15 @@ Agradecimiento a las empresas que han autorizado su publicación en esta página
 <img src="Imagenes/Logos/bosco_films_logo.png" height="100"/> 
 
 [Bosco Films](https://www.boscofilms.es/)
+<img src="Imagenes/Logos/LogoForoComunicacion.jpg" height="100"/> 
+<img src="Imagenes/Logos/LogoConste.png" height="100"/>
+## Personales
+
+Agradecimiento a las personas que han contribuido con el proyecto.
+
+- Laura Mourlot Rodríguez
+- Francisco Torres
+
 
 ## Opiniones Youtube
 Opiniones en los videos donde se explica DBV Combinar correspondencia que pueden verse [aquí](https://youtube.com/playlist?list=PLnNbmcjjevxss8tF1cEtOe9eh6q6eJQd9). Agradecer a todos los que habéis dedicado vuestro tiempo a comentar la aplicación y los vídeos.
