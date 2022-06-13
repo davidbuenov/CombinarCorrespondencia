@@ -13,7 +13,7 @@ Agradecimiento a las empresas que han autorizado su publicación en esta página
 
 [Bosco Films](https://www.boscofilms.es/)
 <img src="Imagenes/Logos/LogoForoComunicacion.jpg" height="100"/> 
-<img src="Imagenes/Logos/LogoConste.png" height="100"/>
+<img src="Imagenes/Logos/LogoConste2.png" height="100"/>
 ## Personales
 
 Agradecimiento a las personas que han contribuido con el proyecto.
