@@ -1,9 +1,9 @@
-# Opiniones
+# Opiniones y agradecimientos
 
-En esta página mostraremos las empresas que amablemente han informado que utilizan al herramienta. Además se muestran algunos de los comentarios más relevantes recibidos en diferentes medios como el Canal de Youtube.
-## Empresas
+En esta página mostraremos las empresas que amablemente han informado que utilizan al herramienta y las personas que han colaborado con el proyecto. Además se muestran algunos de los comentarios más relevantes recibidos en diferentes medios como el Canal de Youtube.
+## Empresas / Organizaciones
 
-Agradecimiento a las empresas que han autorizado su publicación en esta página que utilizan DBV Combinar Correspondencia. Si es tu caso y te gustaría aparecer en esta lista no dudes en comunicarmelo.
+Agradecimiento a las empresas y organizaciones que han autorizado su publicación en esta página que utilizan DBV Combinar Correspondencia. Si es tu caso y te gustaría aparecer en esta lista no dudes en comunicarmelo.
 |<img src="Imagenes/Logos/covidwarriors.jpg" height="100" />|<img src="Imagenes/Logos/Logo_LCS.png" height="100" />|
 |---|---|
 |[<img src="Imagenes/Logos/bosco_films_logo.png" height="100"/>](https://www.boscofilms.es/) |<img src="Imagenes/Logos/LogoForoComunicacion.jpg" height="100"/>|
