@@ -7,7 +7,7 @@ Agradecimiento a las empresas y organizaciones que han autorizado su publicació
 |<img src="Imagenes/Logos/covidwarriors.jpg" height="100" />|<img src="Imagenes/Logos/Logo_LCS.png" height="100" />|
 |---|---|
 |[<img src="Imagenes/Logos/bosco_films_logo.png" height="100"/>](https://www.boscofilms.es/) |<img src="Imagenes/Logos/LogoForoComunicacion.jpg" height="100"/>|
-|<img src="Imagenes/Logos/LogoConste2.png" width="200"/>
+|<img src="Imagenes/Logos/LogoConste2.png" width="200"/>  |<img src="Imagenes/Logos/cabildodelapalma.png" width="200"/> Tesorería del Cabildo Insular de la Palma|
 ## Personales
 
 Agradecimiento a las personas que han contribuido con el proyecto.
