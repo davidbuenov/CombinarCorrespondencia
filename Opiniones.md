@@ -23,6 +23,7 @@ Agradecimiento a las personas que han contribuido con el proyecto.
 ## Opiniones Youtube
 Opiniones en los videos donde se explica DBV Combinar correspondencia que pueden verse [aquí](https://youtube.com/playlist?list=PLnNbmcjjevxss8tF1cEtOe9eh6q6eJQd9). Agradecer a todos los que habéis dedicado vuestro tiempo a comentar la aplicación y los vídeos.
 
+<b>Nancy Balan</b>Le agradezco porque apoyarme esto es una herramienta buenisima. Antes tenía que estar mucho tiempo en la compu pero ahora gracias a Usted tengo mi vida laboral sin tanto estrés :-)
 <b>Christian Cisneros</b> Me ha ayudado mucho en mi trabajo día a día desde hace 4 meses. Saludos desde Quito-Ecuador.
 
 <b>Hector Martinez</b> Si bien no soy del area de informatica gracias a ti pude implementar correspondencia para poder pasar certificados de gente q estaba con covid en formato pdf con tus macros. Soy del Ministerio de Salud de la provincia de Catamarca en Argentina
