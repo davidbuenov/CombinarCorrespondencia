@@ -1,4 +1,3 @@
-Attribute VB_Name = "DBVMacros"
 Option Explicit
 ' Autor: David Bueno Vallejo
 ' twitter: @davidbuenov  linkedin: davidbueno
@@ -23,9 +22,21 @@ Public Sub DividirDocumento()
     Dim seccion As Section
     Dim carpeta As String
     Dim numSeccion As Integer
+    Dim carpetaBase As String    '/// nueva variable para almacenar la ruta inicial original
     
     'carpeta = "d:\temp\generados"  'si queremos marcar ruta especifica
-    carpeta = ActiveDocument.Path 'si queremos que se guarde en la misma carpeta
+    ' ///
+    carpeta = ActiveDocument.Path & "\Documento Dividido"
+    carpetaBase = ActiveDocument.Path
+    ' Comprueba si la carpeta ya existe
+    If Dir(carpeta, vbDirectory) = "" Then
+        ' Crea la carpeta si no existe
+        MkDir carpeta
+    Else
+        ' La carpeta ya existe
+    End If
+    ' ///
+    
     On Error GoTo ControlErrores
     docPrincipal = ActiveDocument.Name
     nombreDocs = Mid(docPrincipal, 1, Len(docPrincipal) - 4) 'quita al nombre del documento la extension. Quedaria Todosv4.
@@ -38,9 +49,10 @@ Public Sub DividirDocumento()
         EmbedTrueTypeFonts:=False, SaveNativePictureFormat:=False, SaveFormsData _
         :=False, SaveAsAOCELetter:=False, CompatibilityMode:=15
     'Al guardarlo como el documento original .docx se cierra. Asi lo abrimos de nuevo
-    Documents.Open (carpeta & "\" & docPrincipal)
+    '/// Al abrir el dpcumento original utilizar la ruta inicial en carpetabase, pues la ruta actual corresponde a la subcarpeta
+    Documents.Open (carpetaBase & "\" & docPrincipal)
     Documents(docPrincipal).Activate
-    Documents(carpeta & "\" & nombreDocs & "dotx").Close
+    Documents(carpeta & "\" & nombreDocs & "dotx").Close SaveChanges:=wdSaveChanges
     
     ' Recorre todas las secciones ignorando el ultimo salto de seccion
     For numSeccion = 1 To Documents(docPrincipal).Sections.Count - 1
@@ -60,7 +72,7 @@ Public Sub DividirDocumento()
         End With
     Next numSeccion
     If numSeccion - 1 = 0 Then
-        MsgBox "DBV. Recuerda que al final del documento debes insertar un salto de sección"
+        MsgBox "DBV. Recuerda que al final del documento debes insertar un salto de secciÃ³n"
     Else
         MsgBox "Se han generado: " & numSeccion - 1 & " documentos"
     End If
@@ -90,9 +102,23 @@ Public Sub GuardarSeleccion()
     Dim nuevoDoc As Document
     Dim nombreDoc As String
     Dim carpeta As String
+    Dim carpetaBase As String    '/// nueva variable para almacenar la ruta inicial original
     
     'carpeta = "d:\temp\generados"  'si queremos marcar ruta especifica
-    carpeta = ActiveDocument.Path 'si queremos que se guarde en la misma carpeta
+    ' Nombre de la carpeta a crear
+    ' /// Cambio Propuesto, hacer que se guarden los documentos en una subcarpeta segun eñ tipo de acción, de modo que los archivos generados por estas acciones no se mezclen con los archivos originales
+    carpeta = ActiveDocument.Path & "\Secciones Guardadas"
+    carpetaBase = ActiveDocument.Path
+    
+    ' Comprueba si la carpeta ya existe
+    If Dir(carpeta, vbDirectory) = "" Then
+        ' Crea la carpeta si no existe
+        MkDir carpeta
+    Else
+        ' La carpeta ya existe
+    End If
+    ' ///
+    
     docPrincipal = ActiveDocument.Name
     On Error GoTo ControlErrores
     'quita al nombre del documento la extension. Quedaria Todosv4.
@@ -101,16 +127,17 @@ Public Sub GuardarSeleccion()
     Selection.Copy
     
     ' hay que guardar el documento original como plantilla para asociarsela al nuevo documento
-    ActiveDocument.SaveAs2 FileName:=carpeta & "\" & nombreDocs & "dotx", _
+    ActiveDocument.SaveAs2 FileName:=carpeta & "\Secciones Guardadas\" & nombreDocs & "dotx", _
         FileFormat:=wdFormatXMLTemplate, LockComments:=False, _
         AddToRecentFiles:=False, ReadOnlyRecommended:=False, _
         EmbedTrueTypeFonts:=False, SaveNativePictureFormat:=False, SaveFormsData _
         :=False, SaveAsAOCELetter:=False, CompatibilityMode:=15
     'Al guardarlo como el documento original .docx se cierra. Asi lo abrimos de nuevo
-    Documents.Open (carpeta & "\" & docPrincipal)
+    '/// Al abrir el dpcumento original utilizar la ruta inicial en carpetabase, pues la ruta actual corresponde a la subcarpeta
+    Documents.Open (carpetaBase & "\" & docPrincipal)
     Documents(docPrincipal).Activate
-    Documents(carpeta & "\" & nombreDocs & "dotx").Close
-    
+    Documents(carpetaBase & "\" & nombreDocs & "dotx").Close SaveChanges:=wdSaveChanges
+
     ' Creamos el documento
     Set nuevoDoc = Documents.Add
     
@@ -131,7 +158,6 @@ ControlErrores:
      Select Case Err.Number
         Case 4605
             mensaje = "EDBV. Pero que quiere que guarde si no has seleccionado nada :-)"
-            
         Case Else
             mensaje = "EDBV. Se ha producido el error: " & Err.Number & " - " & Err.Description
     End Select
